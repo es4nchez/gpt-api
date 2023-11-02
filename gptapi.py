@@ -2,6 +2,8 @@ import os
 import openai
 import json
 from datetime import datetime
+from utils import bcolors
+import requests
 
 class GPT_API:
     def __init__(self):
@@ -9,26 +11,186 @@ class GPT_API:
         self.models = self.list_models()
 
     def print_models(self):
-        print(json.dumps(self.models, indent=4))
+        print('\n')
+        for idx, model_info in enumerate(self.models, start=1):
+            print(f"{idx}) - {model_info['description']}")
+        print('\n')
 
     def list_models(self):
-        models = openai.Model.list()
-        models_dict = {model['id']: model['created'] for model in models['data']}
-        sorted_models_dict = dict(sorted(models_dict.items(), key=lambda item: item[1]))
-        formatted_models_dict = {k: datetime.utcfromtimestamp(v).strftime('%Y-%m-%d %H:%M:%S') for k, v in sorted_models_dict.items()}
-        return formatted_models_dict
+        model_descriptions = {
+            "GPT-4": "Improvement of GPT-3.5",
+            "GPT-3.5": "Understand as well as generate natural language or code",
+            "DALL·E": "Generate and edit images given a natural language prompt",
+            "Whisper": "Convert audio into text."
+        }
 
-    def generate(self, model):
-        if model not in self.models:
-            print(f'Error: model \"{model} not found nor availaible')
+        models = openai.Model.list()
+        latest_models_dict = {"GPT-4": None, "GPT-3.5": None, "DALL·E": None, "Whisper": None}
+        latest_models_timestamps = {"GPT-4": 0, "GPT-3.5": 0, "DALL·E": 0, "Whisper": 0}
+
+        for model in models['data']:
+            model_id = model['id']
+            created_timestamp = model['created']
+
+            if "gpt-4" in model_id and created_timestamp > latest_models_timestamps["GPT-4"]:
+                latest_models_dict["GPT-4"] = model_id
+                latest_models_timestamps["GPT-4"] = created_timestamp
+            elif "gpt-3.5" in model_id and created_timestamp > latest_models_timestamps["GPT-3.5"]:
+                latest_models_dict["GPT-3.5"] = model_id
+                latest_models_timestamps["GPT-3.5"] = created_timestamp
+            elif "dall-e" in model_id and created_timestamp > latest_models_timestamps["DALL·E"]:
+                latest_models_dict["DALL·E"] = model_id
+                latest_models_timestamps["DALL·E"] = created_timestamp
+            elif "whisper" in model_id and created_timestamp > latest_models_timestamps["Whisper"]:
+                latest_models_dict["Whisper"] = model_id
+                latest_models_timestamps["Whisper"] = created_timestamp
+
+        formatted_models_list = [
+            {"description": f"{category}: {model_descriptions[category]}", "model_name": model_id}
+            for category, model_id in latest_models_dict.items()
+            if model_id is not None
+        ]
+        return formatted_models_list
+
+
+    def generate(self, model_number=None):
+        formatted_models_list = self.list_models()
+
+        if model_number is None:
+            model_number = input("Enter model number: ")
+
+        try:
+            model_number = int(model_number)
+        except ValueError:
+            print("Invalid input. Please enter a valid model number.")
+            return
+
+        model_number -= 1
+
+        if model_number >= len(formatted_models_list) or model_number < 0:
+            print(f'Error: model number \"{model_number + 1}\" not found nor available')
             exit(1)
         else:
-            self.model = model
+            model_info = formatted_models_list[model_number]
+            self.model = model_info['model_name']
+            print(f"Model selected : {model_info['model_name']}")
+            if "gpt-4" in model_info['model_name']:
+                self.prompt_GPT4()
+            elif "gpt-3" in model_info['model_name']:
+                self.prompt_GPT3()
+            elif "dall" in model_info['model_name']:
+                self.prompt_DALLE()
+
+
+    def print_response_GTP4(self, response):
+        print('\n')
+        print(f"Role : {bcolors.YELLOW}{response['role']}{bcolors.ENDC}")
+        print(f"Response : {bcolors.DARKCYAN}{response['content']} {bcolors.ENDC}")
+        print('\n')
+
+    def print_response_GTP3(self, response):
+        print('\n')
+        print(f"Response : {response['choices'][0]['text']}")
+        print('\n')
+
+    def print_response_DALLE(self, response):
+        print('\n')
+        # print(f"Full : {response}")
+        for idx, item in enumerate(response['data'], start=1):
+            print(f"Url {idx}: {item['url']}")
+        print('\n')
+
+
+
+    def prompt_GPT4(self):
+        self.role = input("Choose the role (enter for blank): ")
+        prompt = input("Enter the prompt: ")
         completion = openai.ChatCompletion.create(
             model=self.model,
             messages=[
-                {"role": "system", "content": "You are a professional programmer in C language."},
-                {"role": "user", "content": "Can you give guidelines, 3 steps of one sentences each, to developp a shell"}
-            ]
+                {"role": "system", "content": self.role},
+                {"role": "user", "content": prompt} ] )
+        self.print_response_GTP4(completion.choices[0].message)
+        while True:
+            user_choice = input("Enter for a new prompt, (q) to go back: ")
+            if user_choice == 'q':
+                return
+            elif len(user_choice) == 0:
+                self.prompting()
+            else:
+                print(bcolors.RED + "----------\nInvalid choice." + bcolors.ENDC)
+
+
+    def prompt_GPT3(self):
+        prompt = input("Enter the prompt: ")
+        completion = openai.Completion.create(
+            model=self.model,
+            prompt=prompt
         )
-        print(completion.choices[0].message)
+        self.print_response_GTP3(completion)
+        while True:
+            user_choice = input("Enter for a new prompt, (q) to go back: ")
+            if user_choice == 'q':
+                return
+            elif len(user_choice) == 0:
+                self.prompting()
+            else:
+                print(bcolors.RED + "----------\nInvalid choice." + bcolors.ENDC)
+
+    def save_images(self, response):
+        if not os.path.exists('generated_images'):
+            os.makedirs('generated_images')
+
+        date_str = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+        save_dir = os.path.join('generated_images', date_str)
+        os.makedirs(save_dir)
+
+        for idx, item in enumerate(response['data'], start=1):
+            url = item['url']
+            response = requests.get(url)
+
+            if response.status_code == 200:
+                image_path = os.path.join(save_dir, f'image_{idx}.png')
+                with open(image_path, 'wb') as file:
+                    file.write(response.content)
+                print(f'Saved image {idx} to {image_path}')
+            else:
+                print(f'Failed to retrieve image {idx}: {response.status_code}')
+
+        print('All images saved!\n')
+
+    def prompt_DALLE(self):
+        size = 512
+        while True:
+            input_size = input("Choose the format (" + bcolors.YELLOW + "256" + bcolors.ENDC + "|" + bcolors.YELLOW + "512" + bcolors.ENDC + "|" + bcolors.YELLOW + "1024" + bcolors.ENDC + "), enter for default (512)): ")
+            if len(input_size) == 0:
+                break
+            if int(input_size) in [256, 512, 1024]:
+                size = input_size
+                break
+            else:
+                print(bcolors.RED + "Wrong format" + bcolors.ENDC)
+        input_prompt = input("Enter the prompt: ")
+        input_number = input("Enter the number of image to generate (1-10), defaut is (1): ")
+        completion =openai.Image.create(
+        prompt=input_prompt,
+        n=int(input_number),
+        size=f"{size}x{size}" )
+        self.print_response_DALLE(completion)
+        while True:
+            input_save = input("Want to save the image(s) (y=yes, n=no): ")
+            if input_save == "n" or input_save == "no":
+                break
+            elif input_save == 'y' or input_save == "yes":
+                self.save_images(completion)
+                break
+            else:
+                print(bcolors.RED + "Wrong answer." + bcolors.ENDC)
+        while True:
+            user_choice = input("Enter for a new prompt, (q) to go back: ")
+            if user_choice == 'q':
+                return
+            elif len(user_choice) == 0:
+                self.prompting()
+            else:
+                print(bcolors.RED + "----------\nInvalid choice." + bcolors.ENDC)

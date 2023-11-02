@@ -1,3 +1,3 @@
 python3 -m venv .
-source bin/ativate
+source bin/activate
 pip install -r requirements.txt

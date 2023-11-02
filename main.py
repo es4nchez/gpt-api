@@ -3,19 +3,7 @@ import openai
 import json
 from datetime import datetime
 from gptapi import GPT_API
-
-
-class bcolors:
-        PURPLE = '\033[95m'
-        CYAN = '\033[96m'
-        DARKCYAN = '\033[36m'
-        BLUE = '\033[94m'
-        GREEN = '\033[92m'
-        YELLOW = '\033[93m'
-        RED = '\033[91m'
-        BOLD = '\033[1m'
-        UNDERL = '\033[4m'
-        ENDC = '\033[0m'
+from utils import bcolors
 
 def display_banner():
     ascii_art = '''
@@ -39,10 +27,10 @@ def display_banner():
 
 def print_menu():
     print(bcolors.BLUE)
-    print("1. List and select an availaible model")
-    print("2. Start generate a prompt\n")
+    print("1. Selet a model and start generate !")
+    print("2. Not define yet")
+    print("3. Quit program \n")
     print(bcolors.ENDC)
-    print("Enter a number :")
     return ""
 
 def select_model():
@@ -52,12 +40,16 @@ def main():
     gpt_api = GPT_API()
     display_banner()
     while True:
-        user_choice = input(print_menu()).lower()
+        print_menu()
+        user_choice = input("Enter a number : ").lower()
         if user_choice == '1':
             gpt_api.print_models()
+            user_choice = input("Enter a model's number : ").lower()
+            gpt_api.generate(user_choice)
         elif user_choice == '2':
-            model_name = input("Enter the name of the model: ")
-            gpt_api.generate(model_name)
+            print("Not defined")
+        elif user_choice == '3':
+            exit (0)
         elif user_choice == 'q':
             print("Goodbye!")
             break
