@@ -17,7 +17,12 @@ Follow these steps to set up and use the project:
     bash setup.sh
     ```
 
-4. Use the following command to run the main script:
+4. Activate the environment:
+    ```bash
+    source bin/activate
+    ```
+
+5. Use the following command to run the main script:
     ```bash
     python3 main.py
     ```
