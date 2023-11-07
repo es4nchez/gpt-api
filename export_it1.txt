@@ -1,0 +1,814 @@
+[897131383351291996] xamni#0: Un soucis de place sur ma session m’empêche de sauvegarder quoi que ce soit ou d’installer discord sur l’ordi par ex. 
+On peut faire qqchose ?
+[897172908605063178] Lanlan#2821: Has anyone tried git clone the repos on their own computer at home? How do we get access?
+[897328220104454155] guillaumepoi#0: There is no way to acess the vogsphere (git server) outside the school's network
+[897328277411233833] guillaumepoi#0: <@758388216624840746>
+[897392283203284994] tyra_l#0: Brew
+[897491459719188510] fj5cozmwkhnayvb3#0: Hello, la norminette sur le poste c1r15s2 est toujours version 3.3.0 (celles dans /usr/bin et /usr/local/bin)
+[897491964054872145] __vincent#0: ```c1r15s2 [~] # norminette -v
+norminette 3.3.40```
+[897492030299734027] __vincent#0: T'es sur ?
+[897492071538110475] __vincent#0: C'est celle de `/usr/bin`, elle a l'air a jour
+[897492221115375686] fj5cozmwkhnayvb3#0: ```16:30 ->  libft [master] /usr/bin/norminette --version
+norminette 3.3.0```
+[897492656303784067] tyra_l#0: Faites des thread svp
+[897494071768125451] yukie_ch#0: Pour Born2beroot sur demande de JPEG:
+
+Oracle VM virtualBox 6.1.22 r144080
+
+Creation de VM en Debian 64-bit
+- Tenté avec les 1024 de ram de base et 2048.
+- Virtual hard drive (8gb) (VDI dynamically allocated)
+
+Tenté avec iso : 
+- Debian-live-11.1.0-amd64-standard.iso
+- Debian-11.1.0-amd64-netinst.iso
+
+En graphical install.
+Remplis les infos demandées pour essayer de coller au pdf.
+
+- Guided - use entire disk and set up encrypted LVM
+- Choisis le disk (“SCI3 (0,0,0) - 8,6 GB ….”)
+- Separate /home partition
+- Yes
+
+Ca formate la partition sans soucis puis nouvelle barre de loading “Erasing data on SCI3 (0,0,0), partition #5 (spa)” qui bloque à ~10% de la barre.
+(Icône de souris dans la fenêtre freeze mais possible de continuer a utiliser le reste du mac.
+Ou
+Parfois simplement la fenêtre se ferme.
+[897494079540174888] yukie_ch#0: 
+[897500052648521758] jpeg42#0: <@!179027696913743872> 8,6 GB dans ton home de 5GB 😅  ? il faut que tu install ca dans le repertoire `/goinfre/tonlogin`
+[897500169984147517] jpeg42#0: le `/goinfre` est un dossier local a l'iMac que tu utilise parcontre, donc si tu change d'iMac tu devras le refaire
+[897500698416144384] yukie_ch#0: Ah ! J'avais pas (ou oublié l'info des 5GB)
+[897500740078145586] jpeg42#0: retry et redis moi 🙂
+[897506507044814900] yukie_ch#0: born2beroot
+[897604271405674506] yukie_ch#0: Via telephone quand je regarde la map des clusters je vois des dingueries parfois. (La meme personne log à 4 macs en meme temps repartis dans les 2 clusters ou une personne partie à 18h mais encore affichée a 23h58) je ne sais pas si c'est lié à mon device ou generique.
+[897736876524437515] thomasn8#4223: <@!247339798732341258> j'ai installé correctement la norminette V3.3.40 sur mon mac privé mais impossible de l'utiliser. J'obtiens cette erreur : zsh: command not found: norminette
+J'ai cherché si d'autres personnes avaient rencontrée le même problème mais j'ai rien trouvé. Est-ce que tu sais comment régler ça ?
+[897760760791461898] yacine#0859: 
+[897760898926657547] yacine#0859: Hello, quand j'ouvre ma session ce message s'affiche. Est ce que je Cancel?
+[897778304772366357] cassiopee.#0: Si jamais j’ai aucun accès avec Salto et je n’ai reçu aucun mail.
+[897807188582613033] stilobic#0: Bonjour, j’ai un petit souci avec ma session
+[897837424904904724] Ricardo (rpinto-r)#9072: Bonjour, Pouvez vous mettre a jour mon iTerm2 et mon Firefox, merci
+[897842686181138443] Ricardo (rpinto-r)#9072: Peut on avoir aussi Discord App, car j ai essaye de l installer via Managerd Software Center, mais cela me demande le username/password, merci
+[897871940172267571] yukie_ch#0: discord
+[898475671523823638] cassiopee.#0: Ah comme elle est mieux la photo de profil! Merci 
+C’est possible d’avoir l’original où on y voit aussi notre super t-shirt 42 (pour ceux qui l’avait)?
+[898482087953330277] mr.fabrice#0: coucou :^),
+Petite question, l'app Discord demande une mise à jour en continue mais il faut un access admin, vous avez une solution ? Meme quand je cancel rien ne se passe, j'ai déjà re-install l'app sans succes
+[898483184101101568] m.shiba#0: on fera un mise à jour discord sur tous les mac
+[898667837202255922] yukie_ch#0: Serait-ce possible que la recherche de correcteur soit... pas très gentille ? Impossible de trouver les plages des 5 personnes encore présentes à 42 actuellement. On veut me forcer a attendre jusqu'a demain midi.... :/ (Je F5 depuis 20minutes)
+[898700509555331074] kenza42#0: slots
+[899609649949585418] alpha_centaure#0: y a t-il un slack 42 network ? on peut avoir une invitation ?
+[899648882164772934] guillaumepoi#0: Bonjour, je n'arrive plus a me connecter à ma session verrouillée, elle refuse mon mot de passe... J'ai essayé sur un iMac différent et j'ai un message d'erreur "failed to get load to iscsi target"
+[899918573160517662] yukie_ch#0: Les Macs de Asgard marchent mais pas ceux de Gotham. Vous avez eu une info sur le sujet ?
+[900020439361945600] fj5cozmwkhnayvb3#0: Hello, j’ai plus accès aux Chan discord pour les projets autres que libft, c’est normal?
+[900310078480060427] lucastuce#0: Hello, je suis unavailable sur tous les posts sur lesquelles je me connecte.. une solution possible ?
+[900320914892259373] yukie_ch#0: log-pas log
+[900321760497508353] kenza42#0: c'est fix la normalement
+[900375374045790278] lucastuce#0: Hello again, l'acces aux nouveaux channels se fait automatiquement au bout d'un moment ?
+[900376239183892542] __vincent#0: Oui atta
+[900376276186038292] __vincent#0: Ca marchait pas taleur
+[900704469547905026] jsangnak#3952: Bonjour, est-ce qu'il y a parmi nous des utilisateurs.trices  d'OS mobile Linux? Je suis en train de songer à en tester une, mais ne sais vers quel saint me tourner. Si quelqu'un était intéressé par ouvrir une discussion sur le sujet sur Discorde ou à l'école, qu'ielle me fasse signe. (Diable, suis-je sur le channel approprié?)
+[900821519096229908] Robinh#3627: Hello! Serait-ce possible de ré-avoir un mail d’invitation Salto pour ouvrir les portes ? 🙂
+[901154961398841435] fj5cozmwkhnayvb3#0: Hello, juste pour vous prévenir que les mails venant de bocal@42lausanne.ch passent dans mes spams. Protonmail me met aussi un warning concernant tous les mails venant de 42lausanne.ch
+[901169517231759360] iioel#0: @bocal Pour régler ces problèmes de mails qui partent dans les spams, jetez un œil à ça : https://blog.devensys.com/spf-dkim-dmarc-securite-mail/
+Configurer un record DNS SPF permettrait déjà de passer au travers de quelques filtres à spam et configurer DKIM en plus d'un record SPF devrait complètement résoudre le problème.
+[901182309577916466] jpeg42#0: Salut Yoel, j’ai deja un record SPF et un DKIM, le problème c’est que les emails qui arrivent en spam partent de l’intra via mailjet : j’ai rajouter leur ip on verra bien
+[901499974343360514] Ricardo (rpinto-r)#9072: C est top 💯
+[901728567157731388] maurice809#0: 
+[901749567773605928] Simple Poll#9879: **:bar_chart: Quel logo 42 ASCII Art préférez-vous pour 42 Lausanne?**
+[901754965868044319] glys#0: L’intra est-il encore down ou c’est juste moi?
+[901758250884689951] Laurent lbelet#3810: Pour moi ça ne fonctionne pas non plus...
+[901759149568827414] glys#0: Intra down?
+[901770695674040330] tyra_l#0: Faites des threads svp
+[901777244127625288] maurice809#0: Je ne suis pas dans un IRC ? Mince...
+[901777623275929613] maurice809#0: Si on regarde le site de Lausanne.ch le mot Lausanne est représenté seulement avec sa majuscule
+[902145907955478578] Ricardo (rpinto-r)#9072: Salut, c est possible de reboot le C2R8S10
+[902151235195510814] tyra_l#0: Yes on regarde
+[902153940425134170] guillaumepoi#0: Hello, c'est possible de redémarrer le c1r11s4, totalement freeze suite au plantage ISCSI
+[902154331397165096] bima5095#0: Hello, il faudrait relancer aussi le c1r12s3 si possible svp
+[902154818355888179] kenza42#0: c'est fait
+[902154942217875516] aliend21#0: Hello, merci
+[902155677571612682] fvarrin#0: Moi j'ai "failed to add iSCSI target" quand je me log, je ne sais pas si c'est lié a la session ou a l'ordi (c2r5s6)
+Possible de reboot ?
+[902156287557632051] fvarrin#0: Merci 🙌
+[902156810985807932] foxierra#0703: Hello, pourriez vous reboot le c1r1s3 svp ?
+[902157483991244871] foxierra#0703: Ça fonctionne à nouveau, merci beaucoup !!!
+[902160090709245972] jleroux#6420: Je peux pas logout, c’est possible de redémarrer le c1r2s2 svp ?
+[902161185770725407] jleroux#6420: Merci! 👍
+[902203186423685181] t_h2o#0: hello,
+est-ce qu'on peut envoyer des e-mails avec notre adresse 42?
+si oui, comment?
+[902205113236594768] selveris#0: hello
+Serait-il possible d'avoir emacs sur les ordis?
+[902441667259420702] ski#5232: Salto marche pas sur mon téléphone. Vous pouvez y remédier?
+[902448322646773781] _nitara#0: Hello impossible de me connecter sur ma session ce matin 😅
+[902448451147673612] _nitara#0: 
+[902480704036814848] cassiopee.#0: Hello! Si jamais le c1r7s4 demande toujours plusieurs mise a jour (iterm, discord,...) si vous pouvez faire ca a l'occase. Du genre demain matin car de toute facon je devrais me mettre ailleurs vu qu'il est dans la ligne de mire pour les photos. 🙂 Merci
+[902553082557235211] tricaducee#0: Salut, je suis en double sur le discord ! c'est de m'a fautes, je me suis connecté avec 2 compte différent ¡
+[902553180993388574] tricaducee#0: pouvez vous sup celui là : hrolle#2925
+[902555034238189580] __vincent#0: Ouaip, 2min
+[902560872508063804] Patrick#5936: Enfin réussi a me connecter à Discord. merci <@!247339798732341258>
+[902561904692695102] aliend21#0: reste plus qu'à rattraper la lecture des millions de message 🙂
+[902807570203410462] jsangnak#3952: Bonjour, clavier de c1r1s1 à l'air de ne pas fonctionner. Impossible de rentrer le login (depuis quelques jours).
+[902820456153890826] Laurent lbelet#3810: L autre jour j ai eu un problème du même genre.... Tu as essayé de rebranché le clavier?
+[902851322032840725] lulutalu#0: Bonjour je viens de me relog sur le pc (Juste lock screen pas logout) et tous mes dossiers persos ont été wipe.
+J'ai tout en sauvegarde mais est-ce qu'il y a un fix plus rapide possible de votre part ?
+Je suis sur le poste c1r15s1 si jamais.
+Merci
+[902863626988310549] Raphzer#5723: Hello, j'ai un petit probleme de clavier. Certaines touches sont mal mapées. J'ai regardé dans les reglages mais rien trouvé qui resoud le problème.
+[902873362634772570] thomasn8#4223: Hello, j'ai un probleme d'espace plein sur ma session et je peux plus ajouter de nouveau fichier... Vous pouvez me dire comment vider le cache d'une session ?
+[902885844346609714] t_h2o#0: Hello, 
+j'ai vu que qqun avait envoye un lien de cette plateforme, 
+C'est ici que sont nos projets 42?
+Est-ce qu'on peut se logger avec nos identifiant 42?
+https://vogsphere.baco.net/
+[902898592040235009] BobyCharbon#0070: Photo student
+[903338296992735232] fvarrin#0: Hello 🙂 
+Petite question, tout ce que j'avais installé manuellement a disparu (`brew`, `tmux`, `nvim`, ...), j'aurais du faire quelque chose pour que ça soit persistent ? Une idée pourquoi c'est plus là ?
+[903351552599805962] fvarrin#0: Oui via homebrew, en fait en réinstallant je vois qu'ils se sont mis dans `~/.brew/bin` donc je pense que c'est ce dossier qui avait disparu
+[903351663031644221] fvarrin#0: Et j'ai fait un `find` pour voir si ils étaient encore dans mon home et rien
+[903351742874402876] tyra_l#0: Faites des threads svp
+[903588800746377226] letiss_#0: Bonjour ! Ce matin ktrosset avait accès à tout mon disque perso sur sa session.  Ça a surement un lien avec le fait que j'ai subi une déconnexion hier sur ce même poste c1r15s7 (quelqu'un a touché le câble).
+[903601815042539540] Vio#9885: Hi! we are trying to create a squad between vgejno, nnemeth, hkahsay, imoutaou and epresa-c.  we always get a message,  that one of us is already invited. depending on who is trying to create the squad, is always a different person, who cannot join. but none of us see any other invitations. could you please check. thank you for your help!
+[903647946225094666] BobyCharbon#0070: Hello, j’ai une question, est-il possible d’avoir un certificat de scolarité ?
+[903689257581961257] srituit#9394: Salut je pourrais vous redemander un lien Salto car j’ai le mien qui est expiré et j’ai pas l’accès merci 🙏
+[904016166245236747] .stant#0: Salut, le code des manettes a changé ?
+[904649101315039233] deegoh#0: Bonjour, est-ce qu'il est possible de reboot le poste c1r13s4 ? Impossible de se log, la session tourne 5min puis revient à l'écran login.
+[904656077184974860] deegoh#0: disque
+[904686937825230849] lucastuce#0: Hello possible de reboot c1r8s2 svp ?
+[905032264776286228] _nitara#0: Hello,  j ai recu un mail comme quoi je dois evaluer quelqu'un mais je n ai rien sur mon intra ... (?)
+[905042934695624744] stilobic#0: Bonjour, on peut utiliser les portables dans le cluster ?
+[905043202363502642] shaolin_peanut#0: Bonjour, c'est possible d'avoir des erreurs malloc par ce que notre disque est plein?
+[905045998085242893] jpeg42#0: Malloc
+[905099802847625227] cassiopee.#0: c'etait aussi un test l'event du 12 nov? il n'est plus dans notre agenda.
+[905112586549338142] odsodsods#0: Possible de redemarrer le poste c1r11s8 svp? Je me suis log out parce que mes logiciels ne s’ouvraient plus mais impossible de me reconnecter avec mon mdp :/
+[905112793634729994] ksagon#3943: Pareil pour le c1r3s7 !
+[905113191514771478] nad.ia#0: Hello, j'ai eu la même chose avec le c1r11s3
+[905113278534008883] nad.ia#0: Serait-il possible de le reboot ?
+[905115132370235423] _nitara#0: Hello, le c1r13s3 ne reconnaît plus mon mdp 😅
+[905115729727225886] Victor Vermot-Petit-Outhenin#3386: Hello, volontiers un reboot du c1r8s2
+[905115895133798440] _nitara#0: Tout bon merci 🙏🏻
+[905365411057500200] aliend21#0: HELLO, Y A UN SOUCI AVEC LE CLAVIER DU c1r11s2. IL N EST PLUS POSSIBLE D ECRIRE EN MINUSCULE 😦 LA TOUCHE CAPSLOCK NE FONCTIONNE PLUS. ET JE LE DIS PAS EN HURLANT...
+[905369953992060938] aliend21#0: re hello, décidément c'est ma journée... impossible de démarrer l'app discord natif sur le c1r11s4. C'est possible de la mettre à jour ?
+[905392408429207562] Jonas HD#4404: bonjour, j'ai besoin d'un restart du c1r13s7 svp 🙏
+[905392744669790218] jpeg42#0: Yes je m’en occupe dans la journée
+[905407976276373544] yukie_ch#0: Possible de reboot c1r14s1 ? Il a buggé puis semi shutdown et fait des trucs bisares maintenant 😅
+[905442419326218240] iioel#0: Hello, j'ai des problèmes de session iSCSI peut importe le poste. Il y a-t-il des problèmes avec les sessions ?
+[905449143898615808] bschwitz#2231: Hello, j’ai le même problème 😬
+[906115498364772412] odsodsods#0: Hello! Possible de reboot le post c1r10s2 svp?
+[906115570343247872] odsodsods#0: <@422508753804591136> arrive pas à se déco 😦
+[906195706061135912] yukie_ch#0: Un petit reboot de c1r14s1 possible ? (Ou alors il faut arreter de turn off mes peripheriques a distance 🥲 )
+[906211029644623933] lulutalu#0: Hello possible de reboot c1r12s2 s'il vous plait ?
+Merci bien
+[906211892693987338] kenza42#0: @here concernant les demandes de reboot, quand vous en faites merci de préciser la raison (freeze, lent, bug, probleme de log/delog etc) 🙂
+[907216070400704552] yukie_ch#0: Serait-il possible de tenter un changement de clavier en c1r14s1 ? La touche "t" buggait de base (parfois elle ne trigger pas) + maintenant de temps en temps le clavier se deconnecte aleatoirement et ne veux plus fonctionner :s
+[907565578099761172] Steph84#6278: libérer de la place dans le disque home
+[907642582375489567] mmeersma#5009: Bonjour, savez-vous quand vous allez mettre à jour Visual Studio Code à la dernière version ?
+[907931634731454484] didji#0: Bonjour, possible de reboot le c1r14s7, il ne reagit plus depuis hier
+[907974510945394748] ggentil#8186: Hello, c’est possible de reboot le c2r4s1, j’ai essayé de me log à nouveau après manger et il tourne en boucle
+[908321709126467665] odsodsods#0: Hello! Est-ce possible de me renvoyer un mail pour Salto svp?
+[908378840211005501] yukie_ch#0: Bonjour, serait-il possible de récupérer notre Marcel préféré ? Il est très utile pour les gens sans abonnement 3G 😄
+[908690226547949608] nad.ia#0: Bonjour, est-ce que ce serait possible de reboot le c1r11s3 svp ? Les clics-gauche sont des clics-droit et les clics-droit sont (aussi) des clics-droit. Avant ma pause, tout allait bien.
+[909747999893237790] .stymer#0: Hello, je suis bloqué en C1R9S4, possible de le reboot svp
+[909751614821249075] .stymer#0: Finalement je pense que c’est ma session qui a un problème. Impossible de me connecter ou que ce soit. 
+« failed to add iSCSI target » 😅
+[910162470813966408] shaolin_peanut#0: Bonjour, vous pouvez ajouter l'application de prise de note Obsidian au MSC?
+Impossible d'installer avec homebrew, quand il veut deplacer l'app dans le folder /applications y faut un mot de passe admin/être dans les sudoers
+[910167708727914508] fj5cozmwkhnayvb3#0: Obsidian
+[910482552836456498] Ricardo (rpinto-r)#9072: je repost les commands pour faire de la place sur le disque dur
+```
+ rm -ifr ~/Library/Caches/com.google.SoftwareUpdate/Downloads/*
+ rm -ifr ~/Library/Containers/com.tinyspeck.slackmacgap/Data/Library/Application\ Support/Slack/Service\ Worker/CacheStorage/*
+ rm -ifr ~/Library/Application\ Support/Slack/Service\ Worker/CacheStorage/*
+ rm -ifr ~/Library/Caches/com.tinyspeck.slackmacgap.ShipIt/update.*
+```
+[910485204160892978] jpeg42#0: Ah slack tiens-donc.. On va regarder pour vous nettoyer ca automatiquement au logout
+[911175871103115284] yukie_ch#0: Hello et merci pour le remplacement de clavier en c1r14s1. Par contre le fait de débrancher/rebrancher un clavier sur un mac allumé semble rendre celui-ci inutilisable <:this_is_fine:897142366010499113>  possible de le reboot ou fix ?
+[914838719817711676] air23#6675: Question, le fait quún porjet soit terminé et validé empeche quon puisse télécharger ce qui se trouve sur le depot git de celui-ci ?
+[914843365143629886] tyra_l#0: Repo
+[914849612873994271] olmartin#1522: Bonjour. J'ai un bug avec les notifications sur mon profil. Une reste toujours en non-lue. Si je clique sur "Mark all as read",le point rouge disparait et revient quelques secondes plus tard. Je peux faire une autre manipulation pour l'enlever ? Merci.
+[914849790876057623] tyra_l#0: Hello, c'est un bug de l'intranet, malheureusement on ne rien faire. Tu peux leur faire un ticket ici : https://meta.intra.42.fr/issues
+[914855233690165278] olmartin#1522: Ticket créé. Merci
+[914903437987168308] maurice809#0: Hello ! Le iMac qui se trouve sur le Rang 9 Place 8 a un problème audio ( J'ai tente de regarder du contenu  hautement culturel et impossible d'avoir du son sur mon casque ou de faire profiter mes voisins(es))
+[915168682479612004] t_h2o#0: Hello !
+Est-ce possible d'installer valgrind?
+[915182055682355242] maurice809#0: valgrind
+[915232785776648192] creyt86#0: Bonjour, l'ordi c1r12s2 a freeze, est-il possible de le redémarrer svp ?
+[915233373411241984] creyt86#0: Merci 🙂
+[915561336329633812] Victor Vermot-Petit-Outhenin#3386: Bonjour, possible de reboot le C1R6S3 svp? Il load à l'infini lors du login
+[915606733538336800] fj5cozmwkhnayvb3#0: Hello, possible de faire la maj de clion et firefox? merci
+[915620179893952524] jpeg42#0: MAJ
+[915932016476839996] fj5cozmwkhnayvb3#0: Possible de reboot le c1r16s1? Il a freeze quand j’ai essayé de me login
+[915932137297940510] fj5cozmwkhnayvb3#0: Ah non c’est bon il a juste mis 5min à se log in
+[916216224764026900] ski#5232: 
+[916216362156822569] ski#5232: Je sais pas ce que c-est, mais ca fait 4 semaines que ca s-affiche
+[916216424593240084] ski#5232: vous pouvez le mettre a jour?
+[916236727872548884] jm_command#0: Yep normalement le bocal vas mettre a jours les app Aujourd'hui merci de l'info
+[916288412548464662] jpeg42#0: Tu as update dans le MSC récemment?
+[916295525039480853] ski#5232: je n'ai pas de update à faire (si je regarde à cette endroit). Le dernier update de vscode, j'ai l'ai fait y a 10 jours environ
+[916464927219269642] maurice809#0: Es que la Moulinette utilise le compilateur clang ou gcc ?
+[916485263184756747] fj5cozmwkhnayvb3#0: GCC c’est clang sous mac, donc clang
+[916626144101556265] maurice809#0: GCC ou clang
+[916664953170178059] davizin#0: Bonjour, est-ce que c'est possible de mettre a jour make sur les machines des clusters ? L'autre jour j'ai un bug sur les mac (v3.81) que je n'avais pas eu chez moi (v4.3)
+[917352897325432843] iioel#0: Hello, serait-il possible de créer un lien symbolique de `/usr/local/lib/libLeaksAtExit.dylib` vers `/Applications/Xcode.app//Contents/Developer/usr/lib/libLeaksAtExit.dylib` ? C'est histoire de pouvoir utiliser la commande leaks parce que je me prend cette erreurs :
+```
+╭╴ycornamu@c1r14s3:~/cursus42/push_swap - [10:52:00] (master *)
+╰╴> leaks -atExit -- ./push_swap 34 67 19
+dyld: could not load inserted library '/usr/local/lib/libLeaksAtExit.dylib' because image not found
+```
+[917793154193842266] lulutalu#0: Bonjour possible de reboot le c1r14s3 svp ? J'aimerais m'y connecter mais il veut pas <:kurby:897139978566524978>
+[918197983202390027] fj5cozmwkhnayvb3#0: Possible de reboot c1r11s7? On peut pas se connecter il n’y a pas de prompt
+[918228359132086362] Ricardo (rpinto-r)#9072: Hello, pourquoi les House of Process ont -2000 manual points given ?
+[918236164123668490] tyra_l#0: Hello, c’est un tig, parcontre c’est pas trop en rapport avec les pb d’it
+[918257352753414174] Ricardo (rpinto-r)#9072: Desole, je pensais que c etait un bug 😅
+[918257684912943115] tyra_l#0: Ok je comprends mieux my bad 😊
+[918484878859833394] Dolceromano#5445: Hello, possible de reboot le c1r10s1 svp ?
+[918598892487053482] es4nchez#0: Cher bocal,
+
+En ces temps d'hiver, il est dur de travailler, ces premiers mois, nous nous sommes énormément investis. 😮‍💨 
+
+Un cadeau serait le bienvenu et nous avons besoin de chaleur et du baume au coeur.
+
+Par ce message, nous aimerions vous demander d'installer League of Legend. 🥺 
+
+✨ Amicalement, la team ft_tryhard. ✨
+[918610184304197783] __vincent#0: lol
+[918659226811924492] jpeg42#0: Noel c'est le 25, pas le 10 <:troll:918559208973168691>
+[918659472291954718] jpeg42#0: On y reflechira, mais sachez quand meme que si on vous fait cette fleur, il y'aura des horaires a respecter 😉
+[918897689645686944] .stymer#0: Hello, devais corriger quelqu'un, et le slot a disparu. Normal ?
+[918898963644555274] kenza42#0: Salut, la personne a du annuler
+[918899636662599710] .stymer#0: ok dommage pour mes points d'eval😆
+[918906274605838336] jm_command#0: C'est moi 🤣😅
+[918906310408409089] jm_command#0: J'ai remarqué une petite erreur
+[918906414292955207] jm_command#0: Et c'est plutôt dommage mes points je les ai perdu
+[919861708867125258] mpons#0: Salut!, c2r9s2 n'affiche pas la case pour se logger
+[919904881513467904] jpeg42#0: <@!719645058034303088> <@!208590525815586816> <@!156732986417610752> c'est ca que vous voulliez?
+[919905600995983361] jpeg42#0: 
+[919905984766435368] 0xlowell#0: Sisi
+[919917791652487180] yukie_ch#0: Parfait
+[919918171673198643] jpeg42#0: --> Parsec, Shadow et GeForce NOW : disponible dans le MSC dans la categorie Entertainment
+[920222246344200192] BobyCharbon#0070: Hello, je ne sais pas si c'est le bon salon pour demander cela, mais serait-il possible d'ajouter ``1Password`` dans le MSC ?
+Merci!
+[920249986350977035] iioel#0: leaks command
+[920627390030430228] trafalagarpiz#0: Pls reboot c1r15s4 🙏🏼
+[921379281471430678] jm_command#0: Mettre la norminette a jour ?
+[922808479247372298] Asap#7333: Bonjour j'essaie d'installer Debian dans mon dossier goinfre mais ça m'affiche ce message d'erreur alors que mon dossier est vide.
+[922808888124911667] Ricardo (rpinto-r)#9072: Safari telecharge l iso sur home par defaut
+[922809110188134420] Ricardo (rpinto-r)#9072: fais enregistrer sous et choisi l emplacement dans goinfre
+[922809570039070793] Asap#7333: Justement ça marche pas
+[922829217975136267] usrunixity#0: CURL
+[927623421695762482] mpons#0: C'est normal que ça prend trois jours pour crée un repo?
+[928294961965826048] alpha_centaure#0: c2r9s8 : problème avec les périphériques. le clavier répond 1 fois sur 10 et la souris aussi ne fonctionne pas très bien.
+[928339793417478154] mpons#0: c2r9s7 ne laisse pas se logger.
+[928634818416238633] mr.fabrice#0: Hola, xD me suis fait kick du meeting, max 100 personnes
+[928634846933315645] aGaspère#4501: Trop de participants au meeting, 😅
+[928634959642640505] Count_Grischnackh"#5404: Pareil 😅
+[928634986297450547] tyra_l#0: On va mettre discord aussi
+[928634993687793754] kinetic_kangaroo#0: la reu zoom est plaine
+[928635008976027728] tyra_l#0: sur le chan #meeting
+[928635012457316413] aGaspère#4501: Les rejeter de la vie 😭
+[928651275258716211] aliend21#0: Si jamais, pour afficher le presse-papier dans vnc-cluster (interface sur un mac de l'école dans le navigateur), pour Windows il faut presser : [alt GR] + [shift] + [Ctrl]
+[928657088006193152] kinetic_kangaroo#0: je travaille sur vscode depuis un des macs de l'école et chaque quelques minutes il y a ça qui s'affiche à la place de mon terminal. Ça casse rien mais c'est pas super agréable
+[928657192251449364] __vincent#0: T'as un bouton `Terminal` sur le screenshot
+[928657214443503628] __vincent#0: essaye de cliquer dessus ? :p
+[928680073144463451] Lanlan#2821: ssh-cluster log in failed <:joyjoy:897139611686547498> "login as" et "password" sont les memes que l'intra?
+[928680368159199253] tyra_l#0: For guacamole no you need to “reset password” and set a new password
+[928680567124398120] tyra_l#0: For workspaces it gives you a password
+[928680631989325854] tyra_l#0: We will soon translate the documentation in english
+[928719117664550913] _moon.eth#0: Output vscode
+[928727268182863882] deegoh#0: Hello, pour info les mails 42 sont à nouveau considérés comme des spams
+[928729451406184488] jpeg42#0: Yo <@!156732986417610752> 42.fr ou 42lausanne.ch?
+[928733307443765280] deegoh#0: spam
+[928941742705750036] t_h2o#0: Hello,
+j'avais pas compris le fonctionnement du repertoire goinfre...
+J'ai du laisser des fichiers un peu a gauche a droite...
+Ce serait possible davoir une liste des mac ou on a des fichier?
+[929082903885905980] shaolin_peanut#0: Le c2r3s1 a reboot quelque secondes après que j'ai unlock ma session...
+[929082947171151922] shaolin_peanut#0: J'étais sur twitter
+[930042937574842389] mps6206#0: Le C2R5S8 ne s'allume pas correctement
+[930043028083720232] mps6206#0: 
+[930107129011007508] Ricardo (rpinto-r)#9072: Hi, possible de reboot 🥶
+[930107473430462544] Ricardo (rpinto-r)#9072: C est bon pb regle
+[930406652790833202] es4nchez#0: Bien le bonjour ! 
+Petite question, est-ce que une MaJ de nano est envisagée / possible à tout hasard ?
+[930433949472284712] nakawashi#0: Hello est-ce possible de reboot le c1r12s4 svp il n'y a pas de mire de login ^^
+[930760293636800572] wiiman_pain#0: Bonjour, est-ce possible de redemarer le c1r5s7 il y a virtualBox qui freeze et je peut pas l'arreter ?
+[931219773545676890] ski#5232: Bonjour, le bocal vous pouvez mettre à jour VS Code? Ou dois-je faire autre chose?
+[931560319359279144] Ricardo (rpinto-r)#9072: Hello possible de mettre Firefox a jour, merci
+[931576121982582856] jpeg42#0: Yo <@891232763326390353> <@!883270632375201814> on maj les apps lundi 😉
+[931582798547025930] fj5cozmwkhnayvb3#0: Hello, ca serait possible de mettre à jour kitty, Firefox  et CLion aussi?
+[931583102298509362] m.shiba#0: c'est quoi kitty ?
+[931583338542665799] fj5cozmwkhnayvb3#0: Un terminal emulator: https://sw.kovidgoyal.net/kitty/
+[931593951440433232] spirit4865#0: bonsoir, serait-il possible de vous acheter/louer/emprunter des claviers qwerty? ca serait très pratique pour travailler à la maison
+[931598553204285440] Laurent lbelet#3810: https://www.galaxus.ch/fr/s1/product/logitech-mk470-us-sans-fil-claviers-12319419?gclid=CjwKCAiA24SPBhB0EiwAjBgkhjNv3wHdALDgixsWI3z5EzLPdl5qxbB0EYFVFAbFdrmSVUIoEDuczBoCNsUQAvD_BwE&gclsrc=aw.ds
+[931766681544577055] jpeg42#0: Hum on a pas assez de spare pour ca, mais tu veux le meme clavier qu'a 42 en particulier?
+[931830009511952414] t_h2o#0: Tu configure sur ton os un layout qwerty est tu tapes un peu à l'aveugle...
+[931900590278197268] spirit4865#0: c'est tout bon, je me suis pris un clavier us, merci 🙂
+[933674435737694248] usrunixity#0: Hello, qqn a une idée combien de temps ca prend pour "upgrade the storage" ?
+
+Je l'ai fais y a presque une heure, et j'attends que ca vide mon home pour que je commence a reconfigurer :))
+[933674833848467467] wiiman_pain#0: je dirais environ 24h ,un truc dans le genres.
+[933675236124135434] usrunixity#0: Okey merci !
+
+C'est un peu long, mais bon je trouve un truc a faire en attandant.
+[933678191741132841] jpeg42#0: Yo <@!689042041367298048> <@!277873454596751361> ca prends le temps que je prenne le temps de le faire puisque c’est manuel 🤓
+[933678291179671583] jpeg42#0: (Pour l’instant)
+[933678702234066974] usrunixity#0: D'accord merci !
+[934739898202722304] ski#5232: Bonjour, j'ai tous les jours des problèmes d'espace mémoire sur mon poste....
+[934740406485270589] ski#5232: ça indique que j'utilse presque la totalité des 5giga sur /Users/ski ...
+[934740550815469570] ski#5232: a part faire la commande suivante:
+[934740561355747378] ski#5232: rm -ifr ~/Library/Caches/com.google.SoftwareUpdate/Downloads/*
+ rm -ifr ~/Library/Containers/com.tinyspeck.slackmacgap/Data/Library/Application\ Support/Slack/Service\ Worker/CacheStorage/*
+ rm -ifr ~/Library/Application\ Support/Slack/Service\ Worker/CacheStorage/*
+ rm -ifr ~/Library/Caches/com.tinyspeck.slackmacgap.ShipIt/update.*
+[934740638694539264] ski#5232: Je ne sais pas comment liberer de l'espace
+[934740726250627092] ski#5232: Vous pouvez m'orienter?
+[934740970006790174] ski#5232: 
+[934741094762180610] ski#5232: 
+[934741468759863296] ski#5232: 
+[934741987180052510] ski#5232: 
+[934776446600220672] Ricardo (rpinto-r)#9072: Salut, mon script que j utilise pour liberer de l espace
+https://github.com/ricardoreves/42-free-up-space-disk
+[934786655129309274] ski#5232: Yes merci 1000 fois! ça ma libérer 2 giga d'espace! (ps: le Cache s'écrit en majuscule sur mon mac, je sais pas si ça une influence)
+[934786696053157898] fj5cozmwkhnayvb3#0: Une solution c’est d’arrêter d’utiliser chrome parce qu’il télécharge les maj dans ton home
+[934786748880408597] ski#5232: je note
+[934786823346065458] fj5cozmwkhnayvb3#0: Et d’utiliser discord dans le web browser
+[934786980628291594] ski#5232: Ca c'est bon, depuis le début j'emploie Discord-Web
+[934787059879641158] ski#5232: merci
+[934795805481635890] aliend21#0: Mais ces nettoyages ne devrait-il pas être exécutés durant le démarrage de la session ?
+[934796758087770153] jpeg42#0: Je peux le faire si vous voulez
+[934796921791467520] jpeg42#0: Jme souviens plus si le fichier .clean a la racine est activé
+[934797865417605160] jpeg42#0: Après rien ne vous empêche de mettre un script du genre dans votre .profile ou .rc
+[934909441160134696] Ricardo (rpinto-r)#9072: https://www.cloudsavvyit.com/15209/how-to-check-directory-size-from-the-linux-command-line/
+[935098932860686336] usrunixity#0: `brew cleanup` aide aussi
+[935452289123119165] didji#0: Bonjour, possible de reboot le c1r14s2 svp, le prompt de login n'apparaît pas
+[935537635194179644] Deleted User#0000: Bonjour, pour info j'ai redemarre le mac c2r9s10 sans le vouloir car la prise etait mal connecte dans la multiprise 206
+c2r9s10 fonctionne a present donc c'est juste pour info donc il a perdu son uptime
+[936172317741039639] usrunixity#0: Salut, tu peux le faire aujourd'hui stp ?! tu me ping juste pour que je me delog.
+[936177157762330645] air23#6675: Bonjour !
+Impossible de me log sur l’intra depuis le natel, soucis chez moi ou ailleurs ?
+[936177545286672404] air23#6675: 
+[936182499925708801] eurken#0: Yoo, moi c'est tout bon
+[936185894870847510] jpeg42#0: Upgrade
+[936187541332303893] tyra_l#0: Je crois pas qu’il y ai de soucis de l’intra en tout cas
+[936202438430556200] air23#6675: Arf, je vais creuser de mon côté alors
+[936203895884120084] nakawashi#0: Ok chez moi, chrome sur Android 👍
+[936205727696048128] tyra_l#0: ça m'arrive parfois avec le gestionnaire de password apple, essaie en tapant ton mdp a la main ?
+[937066571241758820] air23#6675: Alors j’ai tenté en écrivant le PSW à la main mais ça n’y change rien
+[937709543352328242] didji#0: Merci pour docker 👍
+[937709635236954152] jpeg42#0: tu me confirme que c'est ok <@!378496894441095168> ? faut uninstall et reinstall
+[937709797485182986] jpeg42#0: Parcontre, je vais modifier un comportement sur vos sessions, je vais faire en sorte que les containeurs et images se stockent sur le goinfre, et pas sur votre home sinon ca va etre chiant (quand cela sera fait, il faudra juste delog/relog)
+[937709863927164988] didji#0: j' ai reussi a l'installer et le démarrer, ensuite plus loin je sais pas encore
+[937710001466793984] jpeg42#0: Je testais en // puisque je viens d'update sur le MSC, moi ca tourne je viens de lancer un container 🙂
+[937710133990015037] didji#0: ensuite c'est pas urgent, j'avais juste test mais je savais pas si c'etait deja sensé fonctionner
+[937710391696445440] jpeg42#0: enfaite ils ont changer la facon de fonctionner en rootless sur la derniere version, et le script pour vous donner les droits n'etait plus a jour 😅 donc tres bonne remarque, comme ca c'est fait
+[938037973981724713] guillaumepoi#0: Hello, est-ce possible d'ajouter spark au MSC ? https://sparkmailapp.com/
+[938038202349015120] tyra_l#0: Bonne idée
+[938042432296222770] jpeg42#0: c'est sur
+[938042501133131776] jpeg42#0: on s'en occupe
+[938044645731082271] guillaumepoi#0: Merci 😄
+[938049649829355560] tyra_l#0: C'est fait normalement <@!156823312184508416>
+[938730343735906354] didji#0: Bonjour, possible de reboot le c1r14s2 svp, l'écran de login n'apparaît plus
+[939176385593892994] Angelo#3717: Hello ! J'aurais une petite demande (en espérant être sur le bon channel) : Serait-il possible svp d'installer sur "Managed Software Center" Amethyst  qui est un Tiling Window Manager ? Après qq recherches j'ai constaté qu'il avait l'air plutôt pas mal ; la référence étant i3 mais il est disponible que sous Linux.
+[939188451599855666] air23#6675: Sur Mac il y a Windows Tidy qui le fait très bien.
+Je m’en sers depuis des années
+[939189103474393188] aliend21#0: sur windows y aussi power toys qui ajoute plein de fonctionnalité comme la gestion des fenêtre FancyZones https://docs.microsoft.com/en-us/windows/powertoys/ que je conseille.
+[939192803882336276] Ricardo (rpinto-r)#9072: Sinon comme dirait <@689042041367298048>  install Archlinux 😉
+[939200054437240852] fj5cozmwkhnayvb3#0: Il est deja sous linux si il utilise i3 x)
+[939200175216423012] usrunixity#0: Oui svp 
+
+https://wiki.archlinux.org/title/installation_guide
+[939200514770477086] Angelo#3717: Okay, je viens de voir, merci je connaissais pas mais ca fonctionne sur un systeme de grille et c est pas ce que je recherche dans la mesure ou l un des principale interet de ce genre d outil est de tout pouvoir faire avec le clavier et ainsi gagner plus de temps, ms merci pour l info
+[939200856866308106] Angelo#3717: Grave ! J arrive a l ecole et je demarre ma vm archilinux 😱
+[939201226027966535] air23#6675: Il y a des raccourcis clavier aussi pour disposer les fenêtres
+[939201240729026630] Ricardo (rpinto-r)#9072: https://www.linuxuprising.com/2019/06/use-albert-launcher-on-linux-to-boost.html
+[939201401920311377] fj5cozmwkhnayvb3#0: A quand des ordis sous linux a l'ecole? J'ai vu ils ont commence a en avoir a paris :)
+[939201571223371806] Angelo#3717: inchallah
+[939201733412929610] Angelo#3717: Oui je comprends, je pense que c est un bon outil pour certain mais c est pas vraiment dans la meme philosophie que ce que je recherche
+[939202173168914472] Ricardo (rpinto-r)#9072: Et pour Mac OS https://www.alfredapp.com/
+[939206118134124574] Angelo#3717: J irai checker !
+[939218757665042536] jpeg42#0: Yo! faites des threads svp <:cryeyesopen:581165816653938694>
+[939218895670231122] jpeg42#0: <@!902424628973162527> pas de soucis, mais du coup tu veux quoi? y'a un truc similaire je crois c'est Spectacle
+[939274975188250674] t_h2o#0: Ranger dans le terminal
+https://www.digitalocean.com/community/tutorials/installing-and-using-ranger-a-terminal-file-manager-on-a-ubuntu-vps
+[939276101283377172] t_h2o#0: Je ne sais pas dans quel Chanel mettre ça...
+Sur mon PC, j'ai supprimé le dossier caché ```~/.cargo``` et je ne sais pas ce qu'il y avait à l'intérieur... Mais maintenant mon PC n'arrive plus à se connecter à Internet alors qu'il est câblé... Et j'imagine que ça a "cassé" d'autre truc...
+Bref...
+Help? N'hésitez pas à ouvrir un fil...
+[939284922277982270] air23#6675: .cargo
+[939457119919419462] tyra_l#0: Hello, je t’invite a lire la description du chan, cest pour les soucis IT liés a l’ecole ici 🙂
+[939508320459423754] .stymer#0: Hello, « no Space left on device »
+J’ai supprimé tout ce qui traînait mais ça ne suffit pas.
+[939508797808971877] Ricardo (rpinto-r)#9072: https://github.com/ricardoreves/42-free-up-space-disk
+[939508971885170708] .stymer#0: Merci <@!883270632375201814>
+[939516163065532476] fj5cozmwkhnayvb3#0: Cleanup quelques trucs puis fais un `brew install ncdu`, et utilise ca pour visualiser l'espace que chaque truc prends (`ncdu ~`)
+[939798115253387314] .stymer#0: Merci <@!719150209602682961>
+[940149465405337621] mr.fabrice#0: Hello, j'ai install Docker via le software center mais il ne se lance pas, aucune erreur en retour  🥲 . J'ai tenté de re-install mais toujours pareil. Est-ce que vous avez une idée ?
+[940366936414498926] aGaspère#4501: Il y a moyen de se connecter à distance à l'aide d'une application ou c'est uniquement par le web ?
+[940634715436769330] shaolin_peanut#0: Hello, quelqun a des astuces pour changer la résolution dans guacamole quand c'est trop petit pour lire tout les menus/boutons de l'appareil? Je vois pas ce que je cherche/ecrit non plus
+[940634872639275070] tyra_l#0: https://meta.intra.42.fr/articles/guacamole-usage
+[940902992050262046] ski#5232: bonjour, le bluetooth bug sur mon poste c2r5s3. Il ne veut plus diffuser la musique sur mes ecouteur. Cest possible de le restarter? ou d'y remédier?
+[940903660987252776] ski#5232: Je ne peux non plus pas supprimer tout les appareils qui ont ete connecte via bluetooth de la liste des appareils connus
+[940903878365413377] ski#5232: Il re-apparaissent a chaque fois comme si je ne les avais jamais supprimer.
+[940904152375128095] jpeg42#0: Essaye sur un autre iMac, on va regarder pour clean le Bluetooth en //
+[940917935269113907] ski#5232: Ca y est, je me suis deplace
+[942589100375015424] aGaspère#4501: Petit problème au niveau de la norminette
+[942595349078474772] jpeg42#0: Bonsoir, fait un thread stp 😅 On regardera lundi
+[942595498244702251] aGaspère#4501: Problème norminette
+[943062962963353620] didji#0: Bonjour, possible de reboot le c1r14s2 svp, il a denouveau plus de prompt de login
+[943421942780817438] aliend21#0: Hello, est-il possible d'ajouter sur "Managed Software Center" la possibilité d'installer LibreOffice svp ?
+[943450825517305856] cassiopee.#0: Hello! a l'occas si vous pouvez mettre a jour Firefox et VisualStudio sur le c1r11s3 ca serait cool. Merci!
+[943483054708621322] cassiopee.#0: heu en faite j'ai tous mes programmes qui veulent se mettre a jour.... Merci je change d'ordi pour l'apres midi si ca peut aider. et sinon quand c'est possible 🙂 merci beaucoup
+[943534704144023552] alpha_centaure#0: On a pas homebrew installé sur les imac ? 😮
+[943539762990563328] air23#6675: Non, et je te conseille de faire un max de place avant de le faire, j’ai perdu beaucoup en le faisant
+[943652771591225364] Ricardo (rpinto-r)#9072: https://github.com/kube/42homebrew
+[945272567143497759] odsodsods#0: Hello la team, la souris de mon poste a cessé de fonctionner et on a tout tenté avec Steve, possible de faire quelque chose svp? c1r15s6
+[945996760294228048] thomasn8#4223: Possible de tuer ma session ? J'ai utilisé guacamole 30 minutes hier et je vois maintenant que je suis toujours connecté à Asgard au c2r2s4
+[946019647206096927] alpha_centaure#0: Hello, le clavier du c1r1s1 a au moins 3 touches qui ne fonctionnent pas
+[946020478533898290] jm_command#0: je vais venir change de place
+[946381487635333181] guillaumepoi#0: Hello, est-ce possible d'ajouter la permission "Accessibility" a iTerm ? Elle est necessaire pour configurer une Dedicated Hotkey Window (https://iterm2.com/documentation-hotkey.html) Merci d'avance :)
+[946398161289752647] ski#5232: Bonjour, le bluetoot ne fonctionne pas sur le poste c2r5s3 (pour la 2ème fois). Est-il possible d'y remédier?
+[946398307343822899] ski#5232: Il veut pas établir la connection avec mes écouteur.
+[946398371189518417] ski#5232: En attendant, je me déplace sur un autre poste.
+[946404669549346836] yvanoff#0: Hello !|
+<@!251767785141698563> , comment faire pour avoir la suite JetBrains ?
+Merci <:dealwithjpeg:897138438187388938>
+[946442754865635401] usrunixity#0: JetBrain
+[946744653309411348] .stymer#0: Hello, l’intra est super lent ! Vous êtes au courant?
+[946745305611788308] tyra_l#0: Hello, yes, une mise en prod, ça va revenir ~~(ou pas)~~
+[948178938952310835] t_h2o#0: Hello,
+je ne trouve pas gimp sur mon mac...
+[948188637990891530] tyra_l#0: Hello, il est sur le msc je crois
+[948202504229908530] yukie_ch#0: Hello, il semblerait que les .pdf des sujets ne soient plus accessibles. (reload de la page au lieu d'afficher le PDF)
+(C'est le cas pour 5-6personnes autour de moi au moins)
+(*EDIT* pour le CPP00 du moins)
+[950320428814073899] _goons#0: Hello, je n'arrive pas à push mon exo afin de me faire eval voici mon erreur, si quelqu'un a une idée je suis preneur
+[950320447159935076] _goons#0: 
+[950321726527512656] tyra_l#0: Hello, ce nest toujours pas le bon chan, pas de soucis d'it a priori le message est assez explicite, demande aux autres sur général ou autre 🙂
+[950322544043503616] _goons#0: erf^^ donc c'est pas un soucis d' autorisation de session?
+[950322956632989706] tyra_l#0: Si mais rien qui ne soit pas un comportement attendu 🙂
+[950327241756250142] _goons#0: hehe c'est tout bon merci. Pour ceux qui se demande faut push sur le github AVANT de dire qu'on cherche des slot d'eval ou uun truc du genre, navrer du dérangement a ++
+[950382408795054100] fj5cozmwkhnayvb3#0: Hello, ca serait possible de mettre postman sur le msc? <https://www.postman.com/>
+[950390349384265791] jpeg42#0: Postman
+[951061197275398164] wiiman_pain#0: bonjour , le c1r3s2 bug au boot , un reboot peut etre envisager ?
+[951064899310739496] wiiman_pain#0: rebonjour , je pose la question comment je peut libere de la place sur mon disque , quand j'ai deja tout vide ? il y a des fichier chacher ? je suis au max sur mon disque est sa m'embete ?
+[951066562218065920] fj5cozmwkhnayvb3#0: `brew install ncdu`
+`ncdu ~`
+[951067823541735436] wiiman_pain#0: brew command not found . ou bien c'est moi qui fait mal .
+[951067936670498876] aliend21#0: il faut installer brew avant c est pour ca
+[951068183123611648] aliend21#0: avec ce package si je ne me trompe pas 
+https://github.com/kube/42homebrew
+[951074301820428298] fj5cozmwkhnayvb3#0: Ah mais si t’as même pas brew et que t’as plus de place tu vas pas pouvoir installer ça
+[951074399988109372] fj5cozmwkhnayvb3#0: Tu peux regarder dans le dossier Library/Caches, et supprimer quelques trucs
+[951075031876771911] wiiman_pain#0: effectivement c'est le serpent qui se mort la queux , de mon cote , library/caches supprimer ? quoi parcequ'il y beaucoup de fichier et les sup me demande le password admin
+[951075133387313183] tyra_l#0: Hola, merci de faire un thread ou d'aller dans general si ce n'est pas un soucis d'it pour le bocal 🙂
+[951075205885886486] wiiman_pain#0: place sur le disque full
+[951442654040846336] t_h2o#0: Pourquoi il y a deux site 42 lausanne?
+https://www.42lausanne.ch/
+https://www.42lausanne.ch/42-lausanne/
+[951443103431143444] tyra_l#0: Bonjour
+[951474160608108564] t_h2o#0: Bonjour,
+(désolé, ce mot se perd dans mon clavier entre mes touches)
+[951508043483480124] jpeg42#0: <@!571260301010534400> Salut, c'est simplement une page du site qui parle du campus 😅
+[951508261268504696] t_h2o#0: Merci
+[953352032331370506] t_h2o#0: Bonjour,
+L'intra ne fonctionne pas  chez moi
+:/
+[953354785921331290] t_h2o#0: --> cawork
+[953358650146172979] dd_diana#0: Bonjour, on a un problème pour choisir un slot pour se faire corriger, le site nous dit `Error. Invalid argument.`.
+[953358910499205150] dd_diana#0: 
+[953359348040597604] tyra_l#0: Hello, oui l’intra est pas très bien, 42Network est au courant ça devrait revenir vite
+[953359567515967538] dd_diana#0: Ok, merci, pas de problèmes. On se ferra corriger demain 👍
+[953621716482015316] tyra_l#0: error correction
+[953932507483615253] odsodsods#0: Hello possible de reboot le poste c1r16s3 svp?
+[953933123010330695] odsodsods#0: Merci! 🙂
+[954026622481236028] Angelo#3717: Salut le bocal ! J'ai vu passer qq part que vous étiez en train de réfléchir à mettre en place des Linux comme OS. A cette nouvelle, j'ai eu un mini orgasme intellectuel. En guise de contexte, je précise que je commence de plus en plus à travailler depuis chez moi (oui je sais c'est mal) mais clairement pas exclusivement. Du coup j'ai installé une distribution Linux. J'en conviens que la question suivante sera un peu tricky mais je souhaitais savoir vers quelle distribution vous pensiez vous tourner ? Ou vers quelle famille de distribution ? Peut-être vers quelle distribution vous êtes sûr de ne pas vous tourner ? Aussi, je voulais savoir si dans l'idée, on pourra choisir nous-même notre environnement de développement ? J'aimerais juste avoir quelques pistes... PS : dans ce contexte, la question autour d'"amethyst" devient caduc (conversation que j'avais eu avec Jpeg). Voilà, merci d'avance pour votre réponse 🙂
+[954026895148740649] Angelo#3717: Arg, environnement de bureau je voulais dire
+[954027065638797312] jpeg42#0: Hello <@!902424628973162527>, ce sera Ubuntu 20.04 (Focal Fossa), nous devons nous harmoniser avec l'ensemble du 42 Network
+[954027528404758608] Angelo#3717: Comment je ne m'attendais pas à ce que tu puisses me donner une réponse précise 😉 Merci bcp pour ta réponse !!!
+[954027573346730054] Ricardo (rpinto-r)#9072: tu vas faire pleurer @hsabir 😭
+[954027588358123530] Angelo#3717: Ca sera pr quand ? Non c'est bon je plaisante
+[954027815072833566] Angelo#3717: De toute façon je parle pas au gens qui sont au cercle 18 !
+[954027864066502746] jpeg42#0: Enfaite pour etre transparent, je bossais dessus quand je travaillais encore pour Network, c'est en phase de test avancee et en pre-prod dans 2 campus, mais je ne me lance pas sur une date de release en prod, on fera surement une beta courant de l'ete ou juste apres. 😉
+[954028025295564860] Angelo#3717: Cool merci pour ces précisions 🙂 !!!
+[954037614707613760] usrunixity#0: archhh
+[955385477857443880] bollecola#0: Bonjour, j'ai mon login qui bug il me sort un failed to iscsi target sur le c1r14s4 (il tourne dans le vent là) mon login : tpaquier, merci d'avance
+[955389430594682903] kenza42#0: reboot
+[955776525012189194] Victor Vermot-Petit-Outhenin#3386: Hello possible de reboot le c1r8s2, le imac fait une crise d'anévrisme depuis que j'ai voulu run un programme
+[955800413519634482] 0xlowell#0: Hello, le clavier du poste c1r14s5 ne réponds plus (on ne peut pas ecrire ses identifiants).
+[955800524874194977] guillaumepoi#0: Hello, les prises jack de l'imac c1r15s5 deconnent totalement
+[955806676777304114] _goons#0: Bonjour, petit souci de place sur ma session, malgré l'utilisation de "42-free-up-space-disk" je n'arrive pas a recup de l'espace. Quelqu'un aurait une idée?
+[955808271111950416] _moon.eth#0: Hello, le clavier du poste c1r12s4 marche parfaitement, bonne soirée.
+[955811438251892788] Ricardo (rpinto-r)#9072: Execute cette cmd `du -cksh *` pour voir ce qui occupe de la place sur ton home, ensuite efface les fichiers que tu juge inutiles
+[955811562977898529] __vincent#0: clavier
+[956161603747872869] mpons#0: Bonjour, pourquoi très souvent quand on essai de faire un copier coller il y a le cercle en couleurs qui s’affiche éternellement?? il n y a pas une façon de le réparer???
+[956165544275501126] jpeg42#0: Yo, active Siri dans tes paramètres <@!837405451083317289> (oui, tu ne vois pas le lien, mais tkkt)
+[956174618161479740] mpons#0: oh yes!, ça a marché, la vie est plus belle 😭
+[956575032732188672] lulutalu#0: Bonjour, le poste c1r13s2 semble refuser toute manipulation de <@!719645058034303088> . Même si cela est mérité, un reset ne serait pas de refus. Merci
+Pour info, mon poste marche très bien pareil pour celui de <@!378496894441095168> .
+[956575769281319004] tyra_l#0: C’est reboot 
+Merci du signalement on fera rien au plus vite
+[956576033795100702] lulutalu#0: Parfait, merci pour cette inaction.
+[956606537340706826] nakawashi#0: Quelle efficacité
+[956848760984596490] usrunixity#0: Bonjour,
+Est-ce que vous pouvez ajouter wireshark dans MSC svp ?!
+[956868659031208017] jpeg42#0: Yo, pour faire quoi?
+[956873303069446174] usrunixity#0: IRC(Internet Relay Chat)
+[956876331872837642] t_h2o#0: YO l'eau
+LibreOffice
+pour éditer des 
+documents bureaucratique ?
+
+edit:
+dans msc
+[956905092215353344] mendosita#0: *bonjour :)*
+en parlant de  documents bureaucratique, y'a une imprimante de disponible ? (payant ou non)
+[956905418062430288] Ricardo (rpinto-r)#9072: Salut, au bocal si tu demande gentiment 😉
+[956941318846808155] t_h2o#0: Bonjour, 
+Je réfléchissais à une solution `radical` pour "nettoyer" mon home.
+Pourrait-on "reset" ma session(c'est à dire  supprimer mon home).
+De cette manière je ferais un "new start" et ainsi je me débarrasserai de ma session pollué par des trucs dont j'ai oublié leurs existences...
+[956944578869592144] jpeg42#0: Yo <@!571260301010534400> tu as juste à créer un fichier `.reset` dans ton `~/` et delog/relog 😁
+[956959181569687624] iioel#0: Bonjour,
+J'aurais voulu savoir si il était possible que :
+- vous ajoutiez Xeyes au Managed Software Center afin de pouvoir forwarder l'agent X quand on se connecte à un container docker (pour faire tourner les projets graphiques dans un environnement linux) 🖥️  
+- mettre à jour openssh au minimum à la version 8.2 afin de pouvoir prendre en charge les clé ssh stockées sur un device FIDO2 (ex. Yubikey) 🔑 🔒 
+
+Bonne soirée 🙂
+[957679305142440047] _moon.eth#0: Hello, si c'est pas déjà fait ce serait cool de mettre à jour tous les browsers basés sur chromium (Chrome, Brave, Edge, Opera) étant donné le patch d'un 0day il y a quelques jours
+https://www.forbes.com/sites/daveywinder/2022/03/26/google-confirms-emergency-security-update-for-32-billion-chrome-users-attacks-underway/
+[958390137346203718] nad.ia#0: Hello, le c1r14s5 pose plusieurs problèmes. Déjà, le clavier ne répond pas, sur aucun des ports mais il est allumé. Et en plus, il dit que je suis connectée depuis vendredi dessus et pourtant il affiche l'écran de connexion... Serait-il possible de le reboot/appeler un exorciste ? Merci 😊
+[958390382113206353] kenza42#0: Je test de le reboot mais pas sur qu'il réponde
+[960791836895641620] LeQuent#9394: Hello <@251767785141698563>, 
+Je me suis fait kick de ma session, là maintenance réseau à commencé plus tôt que prévu?
+[960792024217440286] jpeg42#0: J’ai tenter un truc à distance avant la maintenance, cela à du faire une micro coupure.. C’est revenu normalement
+[961013290094436402] loichu#8516: C'est normal que la description du projet dans le holy graph soit en espagnol chez moi ? Je précise qu'il n'y a rien en espagnol d'habitude sur ma session...
+[961203676410703932] t_h2o#0: Bonjour,
+Quelqu'un aurait un programme à proposer pour compiler depuis le terminal un fichier LaTex (file.tex) ?
+[961218494156931072] jpeg42#0: MacTex
+[961220672288346132] t_h2o#0: un peu "FAT" PKG file (4.6 GB)
+[961235931921272832] t_h2o#0: On peut installer basicTex ?
+Il n'a pas de GUI
+https://www.tug.org/mactex/morepackages.html
+```
+A Smaller Distribution, Basic TeX
+TUG recommends the full MacTeX, even for beginners. It contains all files most users ever need. Beginners using it don't face the daunting task of searching for missing components and figuring out how to install them in the TeX distribution.
+
+BasicTeX is a much smaller alternate TeX Distribution for users who do not want to download the full TeX Live, or have unreliable internet connections. BasicTeX is a subset of TeX Live of size 110 megabytes instead of 2 gigabytes. BasicTeX does not overwrite the full distribution; it is installed in /usr/local/texlive/2022basic.
+
+BasicTeX only contains the TeX Live piece of the full distribution; it does not contain GUI programs or Ghostscript. To use TeX on the Mac, it suffices to install BasicTeX and a front end. To make life easier for users who want to use BasicTeX instead of the full TeX Live, we include links below to various pieces of MacTeX that can be added as needed.
+
+BasicTeX was designed for easy download by users with limited download speed. The package is remarkably capable. It contains all of the standard tools needed to write TeX documents, including TeX, LaTeX, pdfTeX, MetaFont, dvips, MetaPost, and XeTeX. It contains AMSTeX, the Latin Modern Fonts, the TeX Live Manager to add and update packages from TeX Live, and SyncTeX.
+
+    BasicTeX.pkg
+    [ approximately 94M - 14 March 2022 ]
+   ```
+[961239292796104714] fj5cozmwkhnayvb3#0: tu peux l'installer avec brew
+[961258233283108875] t_h2o#0: On peut l'installer sans brew ?
+avec le code source ? ou une autre solution ?
+[961258455472164901] tyra_l#0: Faites un thread svp si y'a pas de soucis d'it pour le bocal
+[961288087684665465] jpeg42#0: Posez vos questions sur le `sgoinfre` ici !
+[962299016782155807] nakawashi#0: Hello
+Le clavier ne repond pas sur le c1r3s5 <:rip:897141494903865465>
+[962312192441585684] jm_command#0: hello, 
+tu peux te mettre à coté je regarderai ça lundi matin 🙂
+[964054523435970580] olmartin#0: Bonjour. Le c2r7s8 tourne en boucle, après le login, avec un fond d'écran sans icones. C'est possible de le rebooter svp ?
+[964060668191997972] jm_command#0: toujours besoin ?
+[964060883678539776] olmartin#0: Oui, stp. Merci
+[964061466875527178] jm_command#0: il a étais reboot à 8h49... je fait un 2em reboot, si cela marche pas faudra check le mac
+[964064763476860948] olmartin#0: Hello.  C'est toujours bloqué avec la petite roue qui tourne au centre de l'écran et le fond d'écran vert et sans icônes.
+[964065079442161694] jm_command#0: hmm chelou <@247339798732341258> je sais pas quoi faire quand c'est comme ça...
+[964065155912708126] __vincent#0: je vais voir en arrivant tkt
+[964065641164324865] jm_command#0: Okok
+[964163007687036988] olmartin#0: Hello, depuis ce matin, le C2r7s8 tourne dans le vide, l'écran ne s'est meme pas mis en veille.
+[964193035594383400] jm_command#0: <@247339798732341258> ta pu check ?
+[965506540427694120] .stymer#0: Hello, impossible d’accéder à l’intranet ce matin, ni depuis un Mac ni depuis mon téléphone.
+Merci
+[965507186543456266] kenza42#0: Hello en effet il y a un problème avec l'intra, 42 Network est dessus, on vous tiens au courant
+[965542605905612820] kenza42#0: C'est fix !
+[965893538871132200] mpons#0: Bonjour!!, au c2r9s7 impossible de se loger, merci de reboot svp
+[966009909177090118] alpha_centaure#0: Bonjour, il se passe quoi avec les macs à asgard ? ils redémarrent toutes les 5 minutes
+[966013615188635660] tyra_l#0: Ils ont redemaré apres l’exam, c’est toujours le cas ?
+[966255403744772096] olmartin#0: Bonjour, l'écran du c2r7s8 ne s'allume plus. C'est possible de checker le problème ? Merci.
+[966684935492632617] 0xlowell#0: Hello, un petit reboot pour la c1r14s3 pretty please ?
+[968158058381443102] guillaumepoi#0: Hello, est-ce possible de mettre a jour VSCode svp
+[970630105430904862] es4nchez#0: Bonsoir, puis-je vous demander de redémarrer joyeusement le c1r13s2, il est en pleine crise existentielle.
+Merci d'avance de votre collaboration.
+[972052603284385792] cassiopee.#0: voila j'ai de nouveau plein de mise a jour a faire sur le poste c1r11s3. si a l'occas vous pouvez regler ca c'est top. (ps je ne serai pas la lundi et mardi de la semaine prochaine donc l'ordi sera surement dispo pour les mise a jour) Merci 😊
+[972169434397565039] deegoh#0: Hello, est-ce qu'il y a des perturbations avec 42 networks(intra) ? je devais me faire evaluer par 2 personnes et elles ont ete annules en meme temps a 18:02. Un des evaluateur a fait son examen au complet, au moment de mettre le feedback back, la page a fait une erreur http Merci
+[972200407604531301] Vio#9885: Hi bocal, I just passed my gnl evaluation, but there was a strange automatic evaluation, which passed 1 month ago, at 0%. And it seems like the final result is an average of that NULL result from 1 month ago and peers evaluation at 100%. I got fail with 50%. But the Deepthought sent me a report, where moulinette graded me today with 100%. Could you check it please? Thanks
+[972200810480033945] __vincent#0: Hello <@890710875097427999>, its fixed. Sorry for the incovenience
+[972201241662869524] Vio#9885: Thank you Vincent!!! You saved my weekend 🙏 😊  (and my gnl😜 )
+[972233527439556671] jpeg42#0: Intra
+[972233722852159498] jpeg42#0: Updates
+[973979146206191676] didi97#0: Hello, je n'ai plus accès aux boutons *Manages slots* et *View my profile* quand je clique sur mon profil. Merci d'avance.
+[973986022104891422] tyra_l#0: Hello, c’est un bug connu de l’intra qui arrive parfois 
+Tu as accès au bouton manage slot également depuis la partie evaluation sur ton profil. 
+En général ça revient mais hesite pas a faire un ticket pour 42 network ici : https://meta.intra.42.fr/issues
+[974301225799549018] lulutalu#0: Bonjour,
+Intra dead ?
+[974301984242942023] jpeg42#0: Oui
+[974302032158674995] jpeg42#0: <:rip:897141494903865465>
+[974302050609430598] jpeg42#0: :pettheintranet:
+[974302162052067368] lulutalu#0: Je veux voir ça
+[974302208734679060] jpeg42#0: ca devrait aller mieux la
+[974302301349093388] yukie_ch#0: Tu donnes des wallets en echange de l'emote ? 👀
+[974302325982253106] jpeg42#0: profile est dans le mal, le reste ca va
+[974302393913200660] jpeg42#0: Non, t'aura juste ma gratitude gratuite
+[974303214495227944] yukie_ch#0: Tu as le nom de la font 42 ?
+[974705094048235530] alpha_centaure#0: Quelqu'un d'autre a sa norminette de cassée ?
+[975642407083335711] jm_command#0: https://discord.com/channels/894498037941022730/894498037941022735/975596801195405343
+[978319137057173565] yukie_ch#0: Petit soucis en c1r14s1. Ca a perdu la connexion avec le serveur et maintenant session lock. Impossible de se relog.
+[978330671946817677] kenza42#0: Hello on est au courant des soucis de connexions on regarde et on vous tiens au courant asap, en attendant prenez une pause
+[978341481960079430] es4nchez#0: Je suis loggééééé <:tchoupi:902912253265838140> <:JustRight:973184279196606475> 🥳
+[978341506840678470] lulutalu#0: <a:pet_the_bocal:961994506130042930>
+[978349597808267295] jpeg42#0: Yo, si y’a des services qui ne fonctionnent pas faites nous signe
+[978350695289856131] didji#0: Hello, c'est pas vraiment un service qui fonctionne pas mais est-ce que c'est normal que docker ne soit plus dans le msc / possible de le remettre ? meme s'il est deja installé il demande des droits pour installer des tools
+[978351890700054578] jpeg42#0: Ouaip ce sera de retour demain, soucis de MAJ faites aujourd’hui
+[978351952553443368] jpeg42#0: Tu en as besoin urgemment?
+[978352504897167360] didji#0: Non cest bon, c'était surtout savoir si le problème était deja connu
+[978352895072305262] jpeg42#0: Ce sera fix pour demain matin
+[978580387666202644] jm_command#0: Problème réglé 🙂
+[978582767661113384] jm_command#0: Si vous avez des app a update dîtes le ici. <@&902172270406041670> <@&902173281237499914>
+[978583152589156362] Ricardo (rpinto-r)#9072: Vscode
+[978586504626577429] creyt86#0: Hello ! Vscode et iterm 🙏
+[978635658493050891] Ricardo (rpinto-r)#9072: <@320686182843285504> Firefox, merci
+[978647991223210005] jpeg42#0: Ils font des updates toutes les semaines firefox ou quoi? 😅
+[978650604316541000] jm_command#0: opera > firefox
+[978651538580963338] m.shiba#0: Brave > opera
+[978651627219210300] jm_command#0: ALL > Edge
+[978651779547951124] glys#0: Firefox > Chromium
+[978651843070689340] __vincent#0: En plus FF c'est en Rust
+[978655620385353778] alpha_centaure#0: hello, j'ai été déconnecté de mon disque d'un coup . Est-ce que vous faîtes des tests ?
+[978656343089090590] __vincent#0: nope
+[978660933956161556] jm_command#0: Le câble derrière est bien branché ?
+[978664464289239050] nakawashi#0: All > IE
+Edge s'est bien rattrapé 😂
+[978665389095534622] jm_command#0: ki ?
+[978665449384448111] jm_command#0: le grand frere de edge ?
+[978666031599976488] nakawashi#0: L'ancêtre
+[978666434999746621] alpha_centaure#0: bien sûr et l'utilisateur de l'autre ordinateur sur ma rangée a eu la même chose
+[978666570962329710] jm_command#0: ta place ?
+[978681172714455120] jm_command#0: VirtualBox 🆙📅
+[978709945983836180] fj5cozmwkhnayvb3#0: Hello, ca serait possible de mettre Webstorm sur le software center pour transcendence?
+[978711679191900200] jm_command#0: Je regarde vendredi <a:loading:905806662412140544>
+[978742475592183829] fj5cozmwkhnayvb3#0: Hello, vous faites des manips avec des certificats ssl sur le trafic internet de l'ecole? On arrive pas a utilise yarn/npm sans desactiver le check ssl sur les mac.
+[978744240391737404] jm_command#0: Pas pour ma part
+[978744317311074364] jm_command#0: C'est pas urgent ?
+[978744412672774204] fj5cozmwkhnayvb3#0: Non c'est pas urgent
+[978744482755383386] fj5cozmwkhnayvb3#0: Juste je prefere pas desactiver le https pour installer des packages node
+[978959975718219836] jpeg42#0: Yo, du tout. Ce serait pas les ca-certs de macOS qui sont pas à jour?
+[978971840334663710] fj5cozmwkhnayvb3#0: Oui c'est peut etre ca, j'ai telecharge le certificat depuis firefox ducoup
+[978986098489454644] ToniLeGeudin#0483: Bonjour 
+j'ai un soucis avec le logiciel VirtualBox, quand j'essaye de lancer ma vm une error aparrait et me dit de réinstaller le logiciel VirtualBox, mais meme une fois fais des que j'essaye de relancer sa ne marche toujours pas.
+merci d'avance.
+[978994044959088650] ToniLeGeudin#0483: Effective UID is not root (euid=1001 egid=1001 uid=1001 gid=1001) (rc=-10)
+Please try reinstalling VirtualBox.
+
+where: SUPR3HardenedMain
+what:  2
+VERR_PERMISSION_DENIED (-10) - Permission denied.
+[978994710351843338] ambrodu#0: En c2r9s8 la souris est bloquée
+[978995763516420136] ambrodu#0: Et dans la r3 il manque un tapis de souris
+[978996052482998303] tyra_l#0: QUI A VOLÉ LE TAPIS
+[978997075574407188] ambrodu#0: *les
+[978997133959122974] tyra_l#0: 🥲
+[978997144541364234] ambrodu#0: Y’en a deux qui manquent enfaite
+[979010533804093530] tyra_l#0: Je vais regarder
+[979016254780223488] ToniLeGeudin#0483: ok merci
+[979039763266961428] jpeg42#0: <@114443288093786112> ca devrait etre ok là, tu peux nous confirmer?
+[979734506992959508] Akina#8092: Coucou
+Impossible de me log, ça tourne à l'infini, possible de reboot le C1R12S1 ? 
+
+Merciiiiii
+[979734991246344212] Akina#8092: Tout bon ! Merciii !
+[980815036610150400] 0xlowell#0: Hello :) 
+Petit souci :
+[980815981062529055] 0xlowell#0: J'ai tenté de me co sur c1r14s3 puis ça a tourné pdt 5min dans le vide. J'ai tenté de me co sur celui d'en face, il m'a spécifié que j'avais perdu mon token "login", il me disait de le restore sur default ou de cancel. J'ai cancel. Puis j'ai des erreurs sur les .zsh quand je lance le terminal. Et maintenant, dans mon home, il n'y a plus rien. Sauf parfois, ou des dossiers vides apparaissent, comme Applications.
+[980819490071781446] ski#5232: Rien à voir l'IT, mais le truc que j'ai entouré en jaune avec l'étiquette "SKI" cest mes repas quotidien, faut pas jeter donc. Merci d'avance.
+[980819698520317984] tyra_l#0: ça va mieux dans <#945978681401171988> en effet 🙂
+[980820497312931840] mpons#0: hello! c2r9s7 reboot svp. J'ai un msg que je n'ai plus d'espace dans le disque même après avoir effacer 2 apllication (800Mo en total)
+[981205613067501618] fj5cozmwkhnayvb3#0: Ping
+[981233018888929330] yukie_ch#0: Hello, le site est cassé depuis l'extérieur ? Ca redirige sur les conditions d'utilisation avec marqué tout en bas que je les ai deja accepté et impossible de browse le site.
+[981234094102970378] tyra_l#0: Oui j’ai prevenu network
+[981234105339486289] tyra_l#0: Ils sont dessus
+[983272247080914964] Zoom-zoom#3739: Possible de reeboot le c3r5s3 ça fonctionne pas
+[983272275589595146] Zoom-zoom#3739: Svp bonjour merci
+[983663259146153985] usrunixity#0: Hello, pouvez-vous reboot c3r6s1, svp !
+Ca a commencé par le clavier puis maintenant ca me deloge meme pas!
+[983663687770456094] usrunixity#0: Merci!
+[983997656575651841] mr.fabrice#0: Hello, j'ai un soucis avec le mac c3r2s2.
+Possible de le reboot svp ?
+Merci d'avance 🙂
+[984011121130348594] usrunixity#0: Bonjour, j'arrive plus a lancer Docker, y a un problème de permission.
+[984011769779482634] jpeg42#0: Ah bouge pas on s'en occupe 😉
+[984011864998559804] jpeg42#0: tu peux le deinstaller et le reinstaller sur ton poste stp <@689042041367298048> ?
+[984019127876333588] usrunixity#0: C'est bon ça marche, merci !
+[984023641475919882] air23#6675: Bonjour, il est impossible de se delog de l'intra, l'option a disparu du menu en haut a droite
+[984035875140804648] jpeg42#0: Merci du report, on fait le necessaire
+[984053907254816788] maerphos#0: hello j'ai aussi un probleme avec Docker je n'arrive pas non plus a le lancer.
+[984055055739129866] fj5cozmwkhnayvb3#0: Faut faire un mkdir du dossier indiqué
+[984055216452284436] fj5cozmwkhnayvb3#0: En suivant le symlink com.docker.docker
+[984055332244434966] maerphos#0: Merci ça marche
+[984059159219691520] jm_command#0: <@251767785141698563>  J'ai mal fait un truc ? 😅 (Docker MAJ)
+[984059326056497173] jpeg42#0: Non non juste faut réinstaller comme c’est le meme numéro de version 😉 je te montrerai comment forcer une reinstall
+[984101747452674099] es4nchez#0: Hello, si jamais c2r3 vient d'être déco, mais on a pu se relog
+[984110107753316392] lulutalu#0: Bonsoir Paris,
+Intra pas bien ?
+[984140996218589254] jpeg42#0: Cable du bout de table instable?
+[984141071548289044] jpeg42#0: Y’a les MEP le mardi a 17h00, c’est le temps de la remise en route
+[984448564082135100] passionroro#0: hello, petit problème avec le clavier du c2r7s10 (il écrit les lettres deux fois j'arrive pas à me log), possible de reboot svp? plug/deplug ne fonctionne pas
+[985931415650721902] es4nchez#0: Bonsoir, Un joli freeze bien complet, aucune réponse aux inputs sur le c1r12s4, volontiers un redémarrage svp   😁
+[985970886723121182] fj5cozmwkhnayvb3#0: Hello, pour ft_transcendence on a encore des erreurs de certificats qui arrivent seulement sur les mac de l'ecole. Par exemple ici en faisant un fetch sur l'api de l'intra:
+```
+FetchError: request to https://api.intra.42.fr/oauth/token failed, reason: self signed certificate in certificate chain```
+[986245583008333884] __vincent#0: Salut, le probleme est toujours d'actualité ? ca ne m'évoque rien, et plusieurs etudiants ont reussi sur leur poste
+[986252668991324200] fj5cozmwkhnayvb3#0: Oui j'ai toujours le probleme, ca arrive que dans du code nodejs, pas dans le browser ni avec curl
+[986259606248505374] mr.fabrice#0: Coucou, possible de reboot le c2r5s1 svp ? 
+Le clavier ne fonctionne pas 
+Merci 🦭
+[986260831803158599] m.shiba#0: le clavier fonctionne ?
+[986260893794979850] m.shiba#0: ou toujours pas ?
+[986303211130486835] fj5cozmwkhnayvb3#0: J’ai pu fix le truc en téléchargeant le certificat à la main, mais c’est pas le plus pratique non plus, j’ai l’impression que nodejs arrive juste pas à accéder aux certificats du mac. Peut être si il était installé globalement sur les mac ça marcherait
+[989865562404421715] t_h2o#0: Hello,
+Je n'arrive pas a installer une application via MSC
+[989867558066860073] t_h2o#0: C'est tout bon, il fallait attendre
+[989869299399262208] Ricardo (rpinto-r)#9072: <@571260301010534400> “La patience est une vertu qui s’acquiert avec de la patience.” 😉
+[991971975901753354] didji#0: Hello, le c3r3s5 a l'alim totalement débranchée, c'est rebranchable ou c'est normal ?
+[991973228761333851] kenza42#0: Salut, tu peux rebrancher stp merci
+[994211017766739979] deegoh#0: Hello, est-ce que vous pouvez mettre Unity dans le managed software center ? Merci d'avance
+[994276626806349986] fj5cozmwkhnayvb3#0: Ca serait possible aussi d'avoir datagrip sur le msc?
+[996520406280314950] air23#6675: C'est chez moi ou bien l'intra est HS depuis la fin d'après-midi ?
+[996521136730931200] __vincent#0: Intra down pour maintenance, 22h-23h
+[996521145455104142] __vincent#0: Il revient
+[996785995255119922] aboymond#6869: hello, est il possible d'avoir Notion sur le managed software ?  Merci 🙂
+[997140482754891816] lulutalu#0: Bonjour bonjour
+Petit problème sur le c3r6s2, je met mon login et le mdp correctement et le pc ne veut rien savoir
+[997140921424547980] lulutalu#0: <a:pet_the_bocal:961994506130042930>
+[997141400976101386] lulutalu#0: Euh ça n'a pas fix le reboot enfaite le clavier est en Azerty
+[997141471314583642] kenza42#0: ah oui,
+[997141518617940119] kenza42#0: faut que tu te mettes sur un autre mac
+[997141684162920519] lulutalu#0: Ok<:eee:973877990016552961>
+[998193973082460200] es4nchez#0: Bonjoir, le c3r4s5 est freeze dans un gros iceberg, serait-il possible de le réchauffer ? Merci ❤️
+[998194849213849621] jpeg42#0: Done, essaye de pas finir comme lui ❤️
+[998325567587893290] fj5cozmwkhnayvb3#0: Ca serait possible aussi d'avoir jetbrains gateway sur les ordis?
+[998602348471537724] fj5cozmwkhnayvb3#0: C’est normal que j’ai déjà le rôle Common Core alors qu’on a pas encore validé transcendence?
+[998607667033550948] jpeg42#0: Ouai ca donne toujours n+1
+[998612523412631714] fj5cozmwkhnayvb3#0: Okay mais leo hajar et tadeusz ne l'ont pas et ils sont aussi rank6. Mais c'est peut etre parce que je suis le seul a avoir valide l'exam
+[998615972351070318] jpeg42#0: Exact t'as fini la quete du rank
+[998616062801215646] jpeg42#0: https://profile.intra.42.fr/users/msegrans/quests
+[998917635280490537] chamosake#0: Hello le C3r6s2 est en azerty comment je fais?
+[998917978131267705] kenza42#0: tu changes de mac 🙂
+[998952548788609075] lulutalu#0: Bonsoir,
+Possible de reboot le c3r6s1 pls ?
+[998952610516185196] lulutalu#0: Pas possible de se loguer dessus
+[999290903371972718] fj5cozmwkhnayvb3#0: Hello, je vous relance, mais ca serait possible d'installer jetbrains gateway sur le MSC?
+[999291252153524314] kenza42#0: <@&895706689616097280>
+[999293637567467570] jm_command#0: done <a:cooldoge:989810768763568178>
+[1002237829549666476] air23#6675: L'intra est HS, la maintenance a déjà commencé ?
+[1002238772714405938] tyra_l#0: Non mais effectivement. Network est prevenu ils vont fix
+[1002239167746560050] tyra_l#0: Y’a que profile qui est down, le reste est ok
+[1003265185793974302] lulutalu#0: Ouais salut possible de reboot le c3r5s1 svp ?
+La session de Hajar est toujours connectée dessus alors qu'il est sur un autre pc
+[1003266617121181696] lulutalu#0: Merci
+[1003266651921317998] __vincent#0: dr
+[1003636111811280998] lulutalu#0: Hello si jamais, le clavier du poste c3r6s1 fait des ptits avc
+Il spam le chiffre 3 sans raison valable
+Je l'ai débranché du coup vu que je suis en clavier bt
+[1004016169914740806] guillaumepoi#0: Normal que cette page soit full bug ? Ou on essaie de me pirater ?
+[1004016355588194386] tyra_l#0: C'est normal 😅 ( le front est parti en vacances)
+[1004417540837101689] jpeg42#0: Y'a jamais eu de CSS sur cette page <:joyjoy:897139611686547498> ca fait 3 ans qu'il y'a le ticket dans le backlog de l'intra tkkt
+[1004707127467712512] didji#0: Hello, possible de reboot le c3r4s5 svp, il a totalement freeze
+[1004707808459108372] didji#0: C'est bon, merci
+[1005098382009831455] fj5cozmwkhnayvb3#0: Hello, ca serait possible d’installer xquartz sur les mac? Merci
+[1006453433588523073] iioel#0: Xquartz
+[1007556801325187142] mpons#0: hello! c'est vous qui fait, ou c'est à nous de nous occuper?
+[1007618759067959297] Jonatan#7994: Hello, cela fait plus d'une heure que j'ai donné le feedback de la troisième évaluation mais mon projet n'est toujours pas passé à la moulinette. Est-ce qu'il y a un problème ? Merci d'avance pour l'aide.
+[1007619039285215394] jpeg42#0: En effet, je regarde donne moi 2min
+[1007619645412479088] jpeg42#0: Done <@872157678011580447>
+[1007619778757804082] jpeg42#0: On s’en occupe asap <@837405451083317289> (cc <@320686182843285504>)
+[1007619893451030624] Jonatan#7994: Top merci
+[1007621323327029400] jm_command#0: Salut ?😅
+[1007621699526729828] jpeg42#0: Si tu peux maj Obsidian, semaine pro tkkt
+[1007621786629849118] jm_command#0: Semaine pro oui j'ai pas mon Matos 😅
+[1008696645862567936] fj5cozmwkhnayvb3#0: Hey <@251767785141698563> ca serait possible ducoup d’avoir xquartz? Ou sinon un ordi sous Linux :p
+[1009010854508908554] jm_command#0: Hey !
+je viens de le mettre à jour.
+[1009026549057597520] mpons#0: top merci!
+[1011577466109841418] marco_42#0: Hello j'ai acheté un custom emoji sur le shop possible de l'ajouter ? Merci 😃 .
+[1014507030079344730] fargesia01#4480: Hola! je me suis log sur le C3 R1 S5 mais 30s apres il a commence a mouliner et ca fait 5-10min maintenant qu'il est comme ca je peux rien faire avec
+[1014559349370277948] yukie_ch#0: Hello, possible d'installer dotnet sur les macs pour pouvoir étudier un peu le C# ? (Impossible a install meme via brew) merci 🙂
+[1014560875463581867] es4nchez#0: Bonsoir, pouvez-vous réanimer mon iMac ? c3r1s5 ! Je vous remercie
+[1015229354084679730] Victor Vermot-Petit-Outhenin#3386: Bonjour, mon ordi mouline a l'infini lors du log in, possible de reboot svp? c3r4s3
+[1017729599326662726] nad.ia#0: Hello, impossible de se loguer sur c2r3s5. Juste le fond d'écran. Possible de reboot svp ?
+[1018854212467171380] alpha_centaure#0: bonjour,  vous réinitialisez les cassier à asgard entre chaque piscine ? car c'est la deuxième fois que quelqu'un prend mon cassier
+[1018854587991592981] tyra_l#0: Yo, non, la dernière fois qu'on les a reset c'etait avant la piscine de juin
+[1019228538353745920] didji#0: Hello, si jamais le clavier du c2r2s2 est complètement bizarre, il prend une seconde pour écrire une lettre et certaines touches ne répondent meme pas si jamais
+[1019884659112423434] usrunixity#0: Hello, je viens d'acheter un emoji chad <:JBChad:997494441067687967> 
+Merci de l'ajouter !
+[1019969813659000932] Laurent lbelet#3810: Hello. Possible de reboot le c2r2s2 SVP? Le clavier ne fonctionne pas
+[1019970610039894046] Laurent lbelet#3810: Merci ceci dit il ne fonctionne pas mieux 😂  du coup je change
+[1019970684157431900] jm_command#0: yep change il marche juste pas le clavier
+[1020385683875045506] guillaumepoi#0: Bonjour, câble jack du c1r2s4 a été assassiné 😢

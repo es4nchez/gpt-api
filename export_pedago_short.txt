@@ -1,0 +1,34 @@
+[1113795002859016232] __vincent#0: Essaye sans les couleurs ?
+[1113795679538663504] spartan_ow#0: dommage pour l'esthétique c'était bien ça merci
+[1113795770227896350] __vincent#0: Pas de soucis, tu peux lever une issue sur le github de la norminette, elle sera peut-etre traitée un jour
+[1113810052751573022] 0xonyx#0: Bonjour, serait-il possible d'avoir accès à Linux pour effectuer les spécialisations ?
+[1113810272273051668] jpeg42#0: Salut, c'est deja le cas 😉 mais j'allais l'annoncer lundi
+[1113810291612979311] jpeg42#0: meme login:pwd
+[1113812152478859345] 0xonyx#0: merci 💯
+[1114519240356155453] glys#0: cf ma question dans <#1021474476170412152> : Je ne trouve pas le sujet du projet Part Time https://projects.intra.42.fr/projects/part_time-i
+C’est celui de la piscine discovery qui apparaît à la place.
+[1115354163329646733] nagisalesa#0: bonjour / soir 
+est-il possible de negocier le haut fait " Shit just got serious " pour ceux qui on participer le Week end dernier ?
+[1115506412940963911] mr.fabrice#0: Hello, serait-il possible de savoir le nombre d’heure max-min de travail par semaine pour Internship I ?
+[1115516743864037386] Mariya#2897: Quels sont les taux d'occupation autorisés ? → Le stage doit durer minimum 4 mois (et max 6 mois) en durée pour le premier stage, avec un minimum de 35h/semaine et maximum 45h/semaine. Pas de mi-temps ou le stage ne sera pas validé même en durant 6 mois. La note max étant 125 pour 6 mois a 100%, 4 mois rapportera moins d’xp à l’étudiant.
+[1115658194094653511] std_papasmurf#0: Bonjour le bocal! après avoir consulté sur 3 comptes différent, il semblerait que le pdf du module cpp 07 est disparu, et il me semble que vous ayez pas annoncé une modif du dit pdf sur changelogs. Donc si ce n'est pas voulu, now you know!
+[1115680335691264091] jpeg42#0: :vanished:
+[1115680367060459590] jpeg42#0: On va report le soucis au network
+[1115682194493554809] jpeg42#0: <@248135929221349384> c'est fix
+[1115682264131580066] std_papasmurf#0: niquel merci!
+[1117745247372455956] spartan_ow#0: Hello,
+J'essaie de commencer avec la minilibx, j'ai regardé les vidéos e-learning mais je comprends pas comment je suis sensé l'installer ?
+Quand j'ouvre le "minilibx_opengl.tgz" et que je le mets dans mon dossier de projet je ne peut pas #include"mlx.h" et je n'arrive pas non plus à trouver le man comme montré dans les vidéos
+[1117748877739687957] mr.fabrice#0: Salut salut le bocal, est-ce que quelqu’un peut valider ma convention de stage svp? Merci d'avance 🦦
+[1118886760563343420] didji#0: Hello, je ne sais pas si il faut prévenir, mais est ce que ça serait possible de valider ma convention de stage ? Merci beaucoup.
+[1118914542982926477] jpeg42#0: Hello <@378496894441095168> C'est pas bon, pas de date et de mention lu et approuve
+[1118917682985697332] didji#0: Hello, my bad, on a fait la bonne version, il y a une option pour reupload ou je dois tout delete ?
+[1118918907596640306] __vincent#0: Tu peux reupload
+[1118919724856782908] didji#0: Pour l'instant il me laisse juste dl l'ancien je sais pas si je dois changer un truc ou si je peux delete sans delete toutes les infos
+[1118921461705490453] jpeg42#0: envoie le moi en MP stp
+[1118921474766553139] jpeg42#0: <@378496894441095168>
+[1120990711815356456] guillaumepoi#0: Hello, est-ce possible de valider ma convention de stage ? Merci d'avance
+[1121012078526869564] jpeg42#0: <@156823312184508416> Done
+[1121012111028518933] guillaumepoi#0: Merci :)
+[1122085314245177394] cassiopee.#0: Hello! y  a un exam de 3h vendredi prochain ou ça perturbe ceux de 8h? et si oui a quelle heure? merci
+[1122086662701318144] __vincent#0: Hello, la commande /exam devrait répondre à ta question 🙂

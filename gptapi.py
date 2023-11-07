@@ -9,7 +9,8 @@ from pydub.playback import play
 import io
 import subprocess
 import tempfile
-import pyaudio
+import re
+import base64
 
 class GPT_API:
     def __init__(self):
@@ -205,31 +206,18 @@ class GPT_API:
 
 
     def stream_and_play(self, text):
-        # Set up the audio stream for playback
-        p = pyaudio.PyAudio()
-        stream = p.open(format=p.get_format_from_width(2),  # Assuming 16-bit audio
-                        channels=1,  # Assuming mono audio
-                        rate=22050,  # Assuming 22050Hz sample rate
-                        output=True)
-
-        # Make the API request and start streaming the response
-        response = client.audio.speech.create(
-            model="tts-1",
-            voice="alloy",
-            input=text,
-        )
-
-        # Assuming the response.content is a byte iterable for streaming
         try:
-            # Read chunks of data from the response and write to the output stream
-            for chunk in response.iter_content(chunk_size=1024):
-                stream.write(chunk)
-        finally:
-            # Stop and close the stream
-            stream.stop_stream()
-            stream.close()
-            p.terminate()
-
+            response = openai.audio.speech.create(
+                model="tts-1",
+                voice="onyx",
+                input=text,
+            )
+            response.stream_to_file("output.mp3")
+            
+            subprocess.run(["afplay", "output.mp3"])
+            os.remove("output.mp3")
+        except Exception as e:
+            print("Error occurred while calling OpenAI API:", e)
 
 
     def prompt_conversation(self, conversation_history):
@@ -240,19 +228,30 @@ class GPT_API:
                 stream=True
             )
 
+            audio_content = ""
             for event in response:
                 content = event.choices[0].delta.content
                 if content:
                     print(content, end='', flush=True)
-                    if (self.audio_mode):
-                        self.stream_and_play(content)
-                else:
-                    print(" ", end='', flush=True)
+
+                    content = re.sub(r'\s+', ' ', content).strip()
+                    
+                    audio_content += content
+
+                    if audio_content and audio_content[-1] in '.!?:\n':
+                        if self.audio_mode:
+                            self.stream_and_play(audio_content)
+                        audio_content = ""
+
+            if audio_content and self.audio_mode:
+                self.stream_and_play(audio_content)
 
             print('\n')
+
         except Exception as e:
             print("\nError occurred while calling OpenAI API:", e)
             return "Sorry, I encountered an error."
+
 
 
 
@@ -272,3 +271,64 @@ class GPT_API:
                 "content": user_input
             })
             self.prompt_conversation(conversation_history)
+
+
+    def prompt_Marvin(self, conversation_history):
+        try:
+            response = openai.chat.completions.create(
+                model="gpt-3.5-turbo-1106",
+                messages=conversation_history,
+                stream=True
+            )
+
+            audio_content = ""
+            for event in response:
+                content = event.choices[0].delta.content
+                if content:
+                    print(content, end='', flush=True)
+
+                    content = re.sub(r'\s+', ' ', content).strip()
+                    
+                    audio_content += content
+
+                    if audio_content and audio_content[-1] in '.!?:\n':
+                        if self.audio_mode:
+                            self.stream_and_play(audio_content)
+                        audio_content = ""
+
+            if audio_content and self.audio_mode:
+                self.stream_and_play(audio_content)
+
+            print('\n')
+
+        except Exception as e:
+            print("\nError occurred while calling OpenAI API:", e)
+            return "Sorry, I encountered an error."
+
+
+
+
+    def Marvin(self):
+        print("\nStarting conversation. Type 'quit' to end the conversation.\n")
+
+        text_file = open("export_pedago_short.txt", "r")
+        data = text_file.read()
+        text_file.close()
+
+        conversation_history = []
+        # conversation_history.append({
+        #         "role": "user",
+        #         "content": data
+        #     })
+
+        while True:
+            user_input = input("Ask your question: ")
+            if user_input.lower() == 'quit':
+                print("\nEnding conversation.\n")
+                break
+            user_input = data + "\n\nI just sended you the data about the 42 school. i'll now ask something, and you will search the most accurate answer, and say it. dont say anything else. \n" + user_input
+            conversation_history.append({
+                "role": "user",
+                "content": user_input
+            })
+            self.prompt_Marvin(conversation_history)

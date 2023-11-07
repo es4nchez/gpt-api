@@ -1,0 +1,378 @@
+Thread: [REBOOT MAC][1030503713179193464] jm_command#0: Salon dédié au reboot de Mac.
+Merci de faire un message ici !
+👢
+[1031906354211856484] akuranashi#0: Hello, possible de reboot le c1r7s1 ? Impossible de se logger dessus
+[1032257312620023808] fish955#0: Hello ça serait possible de reboot le c2r6s3 ? La session crash a chaque fois que j'essaie de me login
+[1032550449724801095] bollecola#0: Hello, ça serait possible de redémarrer le c1r15s5 ?, la session a crash quand j'ai essayer de me login
+[1033033238014345427] _moon.eth#0: Bonsoir, pourriez vous reboot le mac c1r12s6 s’il vous plaît ? Merci!
+[1033368400031916082] fj5cozmwkhnayvb3#0: Hello, possible de reboot le C1R6S2?
+[1033368960789401680] fj5cozmwkhnayvb3#0: <@320686182843285504>
+[1034003142016258128] nad.ia#0: Hello, possible de reboot le c1r13s3 svp ?
+[1034024691838500874] jm_command#0: Merci d’évitez les pings stp.
+[1034028007146389574] melanieynz#4764: Hello, il faudrait reboot le c1r16s3 svp 🙏
+[1034029064148758608] melanieynz#4764: Et le c1r15s6
+[1034033084829548614] fcoindre#0: Salut, serait il possible de reboot C1r15s4 svp
+[1034074614697037935] .minibeast#0: hello, possible de reboot c2r4s3 svp? 🙂
+[1034074749380337746] jm_command#0: <@247339798732341258>, marche pas avec moi c'est fou
+[1034468726642319402] broller#0: yoyoyoyo, possible un ptit reboot des familles sur c1r16s3? merci d'avance 🙏🏻
+[1034472789169668206] broller#0: un grand cimer
+[1037404534357631097] shaisto#0: Salut c’est possible de reboot c2r7s7 j’ai un black screen avec juste la souris qui apparaît je me suis déco de ma session car mon pipex a fait de la merde
+[1037425181037187192] shaisto#0: Salut c’est encore moi j’ai bloqué un autre mac j’ai essayer de me log sur un autre max pour kill la session ca n’a pas marcher
+[1037425216135114813] shaisto#0: C’est le c2r5s10
+[1037656428342689875] bberger#5543: Bonjour,  pourriez-vous reboot le c2r9s3, merci d'avance
+[1038075295674150943] deegoh#0: Hellocoton, pourriez vous reboot le c1r13s4, merci
+[1038078290268803143] nemesis128#0: Failed to add iSCSI target sur c1r10s3 ...
+[1038085572159340654] kamigunshi#0: Salut impossible de me relog sur le c1r11s3 après le changement de WP (je sais pas si le reboot est là solution)
+[1038086501713576017] leenae#0: Hello le bocal, je n'arrive plus à me logger sur le c1r11s1. Si c'est ce qui règle le problème, petit reboot svp? Merci d'avance!
+[1039108999993372723] CMY#2133: Hello le bocal impossible de me log ce matin j'ai une erreur failed to add ISCSI target j'ai essayé 3 mac différents
+[1039111558820798495] jm_command#0: Hello, tout est bon, bon travail.
+[1039111607118209044] CMY#2133: Ok top merci beaucoup !
+[1039124160296796161] von_zalius#0: Bonjour, même problème que cmansey ci dessus. Je suis sur le c1r9s3, et j'ai ca depuis vendredi et l'histoire des fameux ( et très jolies) wallpapers
+[1039128192423825408] jm_command#0: Hello, tout est bon, bon travail.
+[1039130782268145706] von_zalius#0: Malheureusement le problème subsiste
+En gros, je tente de me login et ca charge durant plusieurs minutes. Après, j'ai le message d'erreur comme quoi je serais log ailleurs ( c2r5s2 apparemment), je clique alors pour terminer la session, j'ai le message qui me dit que la session a bien été killed, et droit derrière j'ai l'erreur "failed to add iSCSI target"
+
+Et la retour au point de départ 
+( je suis toujours sur le c1r9s3)
+[1039133363849678868] jm_command#0: <@469256481196343297> check sur place stp
+[1039137959624065054] von_zalius#0: C'est tout bon j'ai brutforce et ca a réussi a se co ! Merci beaucoup ^^
+[1039144234441244793] Sandrine#0571: Salut,
+
+Je n'arrive pas à me connecter à ma session, j'ai le message d'erreur suivant : "Failed to add iSCI target".
+Et je suis apparemment "bloquée" sur le poste c2r7s4.
+
+Merci d'avance 🙂
+[1039144950392168549] m.shiba#0: yo, ça devrait etre tout bon
+[1039145219590995978] Sandrine#0571: Yes, tout bon, merci 🙂
+[1039456291673878629] lak72q#0: Bonjour possibilité de redémarrer c1r4s2 ?
+[1039461403788050432] creyt86#0: Coucou ! Possible de reboot le C1r13s1 svp ? Merciiii
+[1039505745479225344] Rfranco#1088: Hello, possible de reboot le C2r8s5? Merci d’avance !
+[1041682587900456962] n0lan#9392: Bonjour, pourriez vous reboot le c2r7s4 svp?
+[1041683051815637023] n0lan#9392: Le c2r7s2 svp
+[1041684024369893397] __vincent#0: Pas le 1er du coup ?
+[1041684443385045092] n0lan#9392: C'est parfait merci beaucoup
+[1041707673630023730] lordWolleh#4234: Hello, pourriez-vous reboot le c2r1s4 s'il vous plaît?
+Meilleures salutations
+[1041723350843654167] sayline#0: Bonjour, pourriez-vous reboot le c1r17s4 svp, d'avance merci 🙂
+[1041725490291028058] sayline#0: Rebonjour,  depuis le reboot le login charge dans le vide 😅
+[1041730766960336916] m.shiba#0: c'est bon ?
+[1041732482346786926] sayline#0: Il charge toujours dans le vide
+[1042370489605169173] chamosake#0: Hello besoin de reboot c1r15s3 svp
+[1042731041066078258] lordWolleh#4234: Hello, pourriez vous reboot le c2r1s4?
+[1044221127007940648] shinikaris#0: Hello, pourriez vous reboot le c2r2s1 svp ?
+[1044637595654684772] thephasme#0: Hello, est-ce que vous pouvez reboot le c2r1s7? Il a des soucis de réactivité, le clavier répond mal (déjà unplugged/replugged). Merci d'avance.
+[1044976269445562398] broller#0: yoyoyo, besoin d'un ptit reboot sur c1r11s2 s'il-vous-plaît! Merci :)
+[1045738870718873693] deegoh#0: hello, possible de reboot le c1r14s3 svp merci 🙂
+[1047466669318086666] rudy__d#0: hello, possible de reboot le c2r9s6 ? login impossible. cimer
+[1047765688661586020] _nitara#0: Bonjour, impossible de me log à gotham sur deux machines : c1r12s2 et c1r13s3. 
+
+edit : c1r13r5 fonctionne en attendant, merci 🙂 .
+[1047845592660983858] deegoh#0: Hello, le poste c1r13s4 a le même problème login hook iscsi Target
+[1047846921525538836] deegoh#0: 
+[1047847174685335592] deegoh#0: J'ai ce screen, puis je reviens sur la page de login
+[1047847314183688222] m.shiba#0: il te demande de changer le mot de passe
+[1047848565537521754] deegoh#0: 
+[1047848992731578368] m.shiba#0: ça devrait etre bon
+[1047849727158403112] deegoh#0: Malheureusement non, j'ai toujours le même problème. Et c'est le cas avec tous les comptes.
+[1047849878765703178] m.shiba#0: essaye d'aller sur un autre poste dsl
+[1047850589452767272] deegoh#0: Ok merci. C'est un Mac qui a subit une MAj. On m'a promis qu'on allait bien s'occuper de mon filleul 😢
+[1047851059491651614] m.shiba#0: tkt on va enquêter sur ton petit protéger <:pepoHmm:973184173202370630>
+[1049308054409191495] activesnow#0: Bonjour, 
+Moyen de reboot le Mac c1r17s1 svp ?
+[1049308227545866281] activesnow#0: Merci !
+[1049670250750283797] ultra_12#0: Salut, le mac c2r2s1 est totalement freeze possible de le reboot svp?
+[1050010958904442990] ultra_12#0: Bonjour, le clavier du c1r7s1 ne fonctionne pas bien (touche z et enter cassée) possible de reboot? Merci
+[1050789496473538640] .minibeast#0: hello, petit reboot sur c1r5s8 svp? merci d'avance 🙂
+[1052156064625328148] .minibeast#0: bonjour, petit reboot sur c1r5s8 svp? merci d'avance !!
+[1054328675471998986] mikey2111#0: Bonjour,
+Serait-il possible de reboot c1r1s1 ?
+Merci 🙂
+[1054717549444616212] fields#7259: Cc je peux avoir un reboot sur c2r1s2 svp 🙏
+[1054763515325464576] yolkers#0: Hello besoin d'un reboot pour le c2r1s5 :)
+[1055478662943735857] akuranashi#0: hello, possible de reboot le c2r7s2 svp 🙂
+[1058121288184508466] maurice809#0: Hello ! il faut reboot le c2r1s2 ! Merci et Bonne année !!!
+[1062022911134797834] std_papasmurf#0: Bonjour! Désolé du dérangement, pouvez vous reboot le c2r9s1, merci d'avance !
+[1062024076241150104] std_papasmurf#0: Merci
+[1062661661166678056] bberger#5543: bonjour, pourriez vous svp reboot la machine c2r9s2, merci
+[1062673556846153759] zweith#0: Hello, possible de reboot le c1r15s7, merci
+[1062728192672157807] zweith#0: il semblerait que ça plutôt un problème de clavier pour le c1r15s7
+[1063050405967302676] .minibeast#0: bonjour, pouvez-vous reboot le c2r2s2 s'il vous plait?
+merci d'avance 🙂
+[1063373367954120764] fj5cozmwkhnayvb3#0: Hello, possible de reboot le c1r14s6? Il est bloqué sur le login de tchappui, alors qu’il était log sur un autre poste.
+Merci
+[1065283798813651025] fields#7259: Hello, possible de reboot c2r3s2 svp? Merci
+[1065561328686735390] chamosake#0: Possible de reboot le c1r15s3 svp? Merci
+[1067764820197257266] lulutalu#0: Bonsoir pouvez vous reboot le c1r14s1 svp ?
+[1070351654362284143] MrMobi#9708: hello, y a le mac en c1 r7s3 qui tourne dans le vide et qui faudrait reboot Merci 😄
+[1070351973716590623] __vincent#0: Je regarde, merci
+[1070634416617037874] yolkers#0: Hello possible de reboot le 
+c2r3s2 ? Merci
+[1070694693198901268] broller#0: yo bonsouar, possible de reboot le c1r8s4 siouplaît? merci
+[1072836414229708820] .minibeast#0: Bonjour, possible de reboot le c1r7s8 svp? Merci d’avance :))
+[1073618531352064020] maurice809#0: Bonjour !   c1r17s2  il a un petit problème audio !
+[1073620758602973194] maurice809#0: Merci !
+[1074998980800430100] madness807#0: hello possible de reboot le c1r13s15
+[1077598894868942898] Kellyy#0928: Hello, c'est possible de reboot le c1r9s3 🙌 ? Petit souci de connexion. Merci !
+[1077948058542817290] brisly_#0: Hello possibilité de reboot c1r7s5 ? thanks
+[1078393697407864902] maurice809#0: c1r1s1
+[1078591873700073493] nagisalesa#0: Hello
+Est-t-il possible de reboot le c2r9s1 ?
+Merci d'avance
+[1082648196506984578] creyt86#0: Coucou ! Pouvez vous reboot le c1r12s5 pour Mme la présidente svp ??
+Merciiii
+[1083322049159757905] stuartrapop#0: Pourriez-vouz rebooter c2r5s10 . merci!
+[1083334488697880630] maurice809#0: c1r9s6
+[1083345035950567495] zweith#0: Hello, possible de reboot le c1r15s6, merci d'avance
+[1083421941442035752] 0xonyx#0: c3r5s3
+[1083706298111119492] maurice809#0: c3r5s3
+[1085588379003006976] broller#0: bonsouâr, un ptit reoot sur le c1r17s6 siouplaît merci!
+[1085897176242200596] nagisalesa#0: Est-t-il possible de reboot le c2r9s3 ? Chrome mouline depuis 5 minutes
+[1085902595098419260] jpeg42#0: t'as activer `Dis Siri` dans ta session?
+[1085916051855900703] nagisalesa#0: normalement ca a ete fait en piscine mais comment je peut verifier ?
+[1085918012919513178] jpeg42#0: Preferences systèmes
+[1085926852515860501] nagisalesa#0: Ok merci
+[1086203552638189618] rphlr#0: Bonjour, pouvez vous redémarrer ces 3 ordis svp ? c1r7s8 c1r7s7 c1r7s5
+[1086210023606190130] erzloh#2333: C'est pour moi eholzer
+[1086210738915385384] erzloh#2333: c1r7s8 c1r7s7 c1r7s5 affiche le message Login hook Mount error :(
+[1086316408369057803] bschwitz#2231: Bonjour, c’est possible de reboot c1r1s3 ? Merci
+[1086618573285367929] bschwitz#2231: Bonjour, le c1r1s3 est toujours bloqué
+[1086641769615216710] jm_command#0: Je n'arrive pas à le reboot à distance. Je pense que le câble internet est pas branché, ou juste qu'il faudrait juste l'éteindre et rallumer.
+[1086643039147147304] bschwitz#2231: C’est bon merci !
+[1088064609782616147] guillaumepoi#0: Hello, le c2r9s10 s'est éteint durant ma pause de midi et il ne donne plus de signes de vie
+[1088064888125014087] guillaumepoi#0: Merci c'est bon
+[1088103511335649300] .minibeast#0: bonjour, pourriez vous reboot le c1r3s5 svp, merci d'avance:)
+[1088912570792026132] didji#0: Bonjour, encore possible de reboot le c1r14s2 svp ? Il a commencé a réagir bizarrement et il s'est bloqué quand je me suis delog
+[1090962898920149002] cassiopee.#0: hello! merci de reboot le c1r6s2 qui bloqe depuis hier.
+[1090969572091379803] aliend21#0: Coucou, hélas non, il a pas reboot.
+[1090971229906812999] jpeg42#0: Cable réseau mal branché du coup <@691587074759065601>
+[1090973161983578122] aliend21#0: Merci, tout bon apres mon action manuelle de cliper correctement le cable. Probleme resolu
+[1090983644333617292] broller#0: bonsouér, j'apprécierais bien un petit reboot des familles sur le c2r8s10 s'il-vous-plaît! merci :)
+[1090984356144758784] broller#0: ok apparemment il refuse de reboot et rame comme pas possible, je peux le redémarrer manuellement?
+[1090984634826899456] jpeg42#0: Oui vas y <@323085301675458571>
+[1090984650354217001] broller#0: mercé
+[1091267936972443659] nagisalesa#0: Bonjour !
+Possible de reboot le c2r9s2 ?
+Merci d'avance !
+[1091269096185806899] nagisalesa#0: Le mac est complètement planter et ne reboot pas ...
+[1091270393546940437] __vincent#0: <@937108602764800010> Tu peux le reboot manuellement si il n'a pas reboot, verifie d'abord que le cable ethernet est bien branché
+[1091283395742531636] nagisalesa#0: le PC a retrouver un minimum de reactivité par lui meme apparament ! merci quand meme !
+[1092418179990552616] es4nchez#0: Bonsoir, login après lock impossible, c1r13s2, reboot possible SVP ?<:surprised:897142046542954496>
+[1092807562275082402] chamosake#0: Hello possible de reboot c1r15s3 svp?
+[1092826244967567431] Comrade Groux#7538: Hello, possible de reboot le c1r16s6 svp ? Merci d'avance
+[1096010149321257012] laendrun#0: possible de reboot le c1r9s1 ? merci d'avance 🙂
+[1096012176608743504] DiscoBOT#6211: Got a request to reboot c1r9s1
+[1096030847364247552] shaolin_peanut#0: Bonjour, possible de reboot le c1r5s2 ? Merci d'avance 🙏
+[1096031035084517536] DiscoBOT#6211: Got a request to reboot c1r5s2
+[1096032073225089134] shaolin_peanut#0: Got black screen and cursor, possible de reboot c1r5s2 again? Merci d'avance 🙏
+[1096032747337830482] shaolin_peanut#0: Salut <@247339798732341258> c'est bizarre, tu peux jeter un œil? Merci d'avance
+[1096368024635854949] chamosake#0: Bonjour, possible de reboot le c1r14s2 ? Merci d'avance 🙏
+[1096370775847604264] DiscoBOT#6211: Got a request to reboot c1r14s2
+[1096371058854084668] didji#0: Merci
+[1097895394157019227] minks_09#0: Reboot pour le c1r17s1 svp 🙏
+[1097905677982240848] DiscoBOT#6211: Got a request to reboot c1r17s1
+[1100061278610919475] broller#0: bonsouér, possible un petit reboot des familles sur le c1r4s2 siouplaît? merci!
+[1100323368818987009] DiscoBOT#6211: Got a request to reboot c1r4s2
+[1100704546021453925] fish955#0: Hello possible de reboot en c2r9s3 svp
+[1100705079998304256] DiscoBOT#6211: Got a request to reboot c2r9s3
+[1102565854736031834] tastybao#0: Possible de reboot c1r7s6? Il tourne en boucle.
+[1102569965590171768] DiscoBOT#6211: Got a request to reboot c1r7s6
+[1102570449675751424] .minibeast#0: hello, possible de reboot le poste c1r3s7 svp? mercii
+[1102570937552994426] DiscoBOT#6211: Got a request to reboot c1r3s7
+[1102938865368584223] nagisalesa#0: possible de reboot le c2r9s4 ? merci d'avance !
+[1102944207104118784] DiscoBOT#6211: Got a request to reboot c2r9s4
+[1103682467673669683] zweith#0: Hello, possible de reboot le c1r15s7 ? Merci
+[1103682712105136209] DiscoBOT#6211: Got a request to reboot c1r15s7
+[1105007754017513572] Midryen#8060: Pourriez-vous reboot c2r9s6, c2r9s5, c2r9s3 🙏
+[1105048084259553291] chamosake#0: Hello possible de reboot c1r15s3 svp?
+[1105048859039768586] DiscoBOT#6211: Got a request to reboot c1r15s3
+[1105049533077004310] DiscoBOT#6211: Got a request to reboot c2r9s6
+[1105392087828013126] ggentil#8186: Hello, possible de reboot le c1r12s5 svp ?
+[1105392135114588180] DiscoBOT#6211: Got a request to reboot c1r12s5
+[1106137239739699230] herminesnow#0: Hello ! Possible de reboot le c1r3s5 svp ?
+[1106138404120436786] DiscoBOT#6211: Got a request to reboot c1r3s5
+[1106187365447376978] jikho7#3076: hello, possible de reboot le c1r7s1 et le c1r7s3 svp ?
+[1106489319704768583] lordkallad#0: Hello, possible de revoir le c1r3s3 svp ?
+[1106494836057579570] DiscoBOT#6211: Got a request to reboot c1r3s3
+[1107646704511103038] .minibeast#0: Pouvez-vous reboot le c1r14s7 svp? Merci
+[1107647779997765702] DiscoBOT#6211: Got a request to reboot c1r14s7
+[1110494843119091733] yolkers#0: Hello possible de reboot le c2r5s1 ?
+[1110495723511894057] DiscoBOT#6211: Got a request to reboot c2r5s1
+[1110564057443991582] didji#0: Bonjour, possible de reboot le c1r14s2 svp ? Le clavier et la souris répondent plus
+[1110576643426242600] DiscoBOT#6211: Got a request to reboot c1r14s2
+[1111222458008219659] 0xonyx#0: Hello toute la ranger c2r8s8 c2r8s10 c2r8s6 et en mode examen en boucle possible de reboot ?
+[1111227100989497467] rphlr#0: Bonjour, possible de reboot le c1r1s7 svp?
+[1111227502552162324] DiscoBOT#6211: Got a request to reboot c1r1s7
+[1114093471393910846] nemesis128#0: Bjr, j'imagine qu'il faut reboot le poste où j'apparais actuellement connecté depuis 24h...
+[1115271646572462150] 0xonyx#0: Bonjour la session à freezer C3r6s1
+[1115285015245377576] m.shiba#0: yo, c'est toujours le cas ?
+[1115299760765669486] 0xonyx#0: non toujours pas il est encore freeze
+[1115301532750053496] m.shiba#0: done ✅
+[1115301706876604497] 0xonyx#0: toujours pas apres il est sous linux je sais pas si sa change quelque chose 🤷‍♂️
+[1115302410693378269] m.shiba#0: a
+[1117838844474175538] es4nchez#0: Bonjoir, possible de reboot le c2r4s3 svp ? Merciiii
+[1117838894944243843] DiscoBOT#6211: Got a request to reboot c2r4s3
+[1118133235822628924] nagisalesa#0: Hello
+Possible de reboot le c2r3s5 ?
+Merci d'avance !
+[1118133456245891183] DiscoBOT#6211: Got a request to reboot c2r3s5
+[1119243340521676850] shaisto#0: Salut c3r1s3 à freeze
+[1119243371786031217] shaisto#0: L écran vient de s éteindre sans raison
+[1119243471203598418] shaisto#0: 
+[1119243522877427824] __vincent#0: le poste a reboot tout seul
+[1119243571007062126] __vincent#0: Check les prises derriere l'ecran et sur la multi
+[1119243631220510761] shaisto#0: Il s est rallumé la
+[1119243715421143091] __vincent#0: Yes mais verifie au cas ou que c'est bien enclenché
+[1119243832400294018] shaisto#0: Tu veux que je Check qu’elle câble ?
+[1119243883533054014] __vincent#0: L'alim du mac
+[1119244013778784306] shaisto#0: Elle est bien branchée des deux côté
+[1119255470914416720] t_h2o#0: Hello, can we reboot `c3r6s4c` ?
+[1120349202136973353] herminesnow#0: Hello
+Possible de reboot le c3r1s5
+Merci 🙂
+[1120349914422059169] DiscoBOT#6211: Got a request to reboot c3r1s5
+[1120626568750964796] brisly_#0: pls reboot c2r3s4 thanks
+[1120631152533831710] DiscoBOT#6211: Got a request to reboot c2r3s4
+[1120644777680056351] rphlr#0: Possible de reboot le c2r2s4? Il a crash
+[1120644821556678778] DiscoBOT#6211: Got a request to reboot c2r2s4
+[1122844908647100487] es4nchez#0: Bonjoir ! Possible de reboot le c3r4s4 svp ? Merci !
+[1122845107624874024] DiscoBOT#6211: Got a request to reboot c3r4s4
+[1122846828799463556] 0xonyx#0: Bonjour sa n'a pas fonctionner
+[1122849480983711826] DiscoBOT#6211: Got a request to reboot c3r4s4
+[1122849521571991593] __vincent#0: il est connecté ?
+[1122850239326470175] 0xonyx#0: il me semble que oui mais il est dans une boucle infini de connection
+[1122850691464056913] __vincent#0: Je vais passer
+Thread: [MSC][1030504619048185926] jm_command#0: Salon dédié au MSC (Manage Software Center)
+
+Merci de faire un message ici !
+
+➕ > Ajouter une application.
+🔁 > Update une application.
+[1030505173270941786] didji#0: ➕  Bonjour, Unity editor, pas le hub svp ? https://discord.com/channels/894498037941022730/1023899809716908072
+[1032658351164764171] yeahman64#0: Hello, 🔁 Firefox 106 svp ?
+[1033029372447309894] _quentinj#0: ➕ neovim (parce-que ça prend de la place avec Brew, et que .vimrc c'est le pire language)
+[1033029603918368798] _quentinj#0: ➕ la rust toolchaine (parc-que c'est le meilleure langage ou quoi)
+[1033029731886571590] _quentinj#0: 🔁 on me dit que Git n'est pas à sa dernière version
+[1033029804213145661] _quentinj#0: merci d'avance ❤️
+[1033037204806705152] jpeg42#0: Non, tu le garde sur brew, chacun ses gouts
+[1033037243675324426] jpeg42#0: pas installable avec brew?
+[1033037309345533962] jpeg42#0: Delicat comme MAJ sur la prod, cela se fera quand on MAJ macOS donc pas de suite
+[1034455663352487936] broller#0: yo, pas de ETA sur les Maj macOS ducoup?
+et une MaJ sur Discord ça serait possible? 😁
+[1035187605551190056] usrunixity#0: ➕ Salut, Vous pouvez ajouter fleet svp ?!
+[1036594869210193950] .jackthehack#0: ➕ intellij svp 🙏
+[1038082744825167902] shaolin_peanut#0: Bonjour,
+➕ moose ou sourcetrail plz!!
+[1040547364403937360] jm_command#0: Salut ulltimate ou commu ?
+[1040547467848056842] jm_command#0: Salut tu as le lien stp
+[1040547545329434676] jm_command#0: Salut le lien stp
+[1040547545803390998] .jackthehack#0: pas de diff en vrai
+[1040547861986807810] jm_command#0: Salut j'ai pas compris ta première phrase ^^' (ETA)
+[1040547929473163327] jm_command#0: ça me répond pas xD
+Vous avez des github student pack donc vous avez jetbrain premium,
+[1040548048134230036] .jackthehack#0: commu alors
+[1040548076189909052] jm_command#0: d'accord
+[1040555149753602129] shaolin_peanut#0: https://github.com/CoatiSoftware/Sourcetrail/releases
+[1040626802214834196] broller#0: Estimated Time of Arrival (genre vous savez plus ou moins quand la MaJ arrive?)
+[1040628553483563048] jm_command#0: JPEG : 
+Delicat comme MAJ sur la prod, cela se fera quand on MAJ macOS donc pas de suite 
+MOI: 
+je pense que c'est non pour le moment 
+donc pas de ETA ^^'
+[1040628702679154799] broller#0: oui justement! j'avais compris par la suite, merci :)
+[1040629074810380309] jm_command#0: okey
+[1043203085465555025] timrodeo314#0: une mise à jour est disponible pour iTerm2
+[1043260797830316215] jm_command#0: regarde du cote de brew avant stp
+[1043850557154136136] fcoindre#0: Hello, serait-il possible de mettre ma version de firefox à jour SVP 🙏  ?
+[1047526126601379861] yeahman64#0: Peut-être que l'ajout ➕ de Firefox ESR serait préférable pour faire moins de MaJ de FF
+[1049663992223760505] air23#6675: Bonjour,
+Je ne trouve pas d'utilitaire FTP dans les soft disponibles dans le MSC, serait-il possible d'en mettre un style cyberduck ou filezila ?
+[1050133455603773480] nemesis128#0: Salut,  MàJ de VirtualBox, svp?
+[1052142815578173470] air23#6675: Bonjour, possible ou pas d'avoir un client FTP ?
+[1060528620138934292] jm_command#0: ca te vas filezila
+[1061953553863815199] nad.ia#0: Hello, serait-il possible d'ajouter Arc, suite à cette discussion :
+https://discord.com/channels/894498037941022730/894540332027490304/1060910387396100167 ?
+[1062045948978675773] jpeg42#0: Hello <@449509865698885642> j'attends de recevoir leur email pour test comment ca fonctionne car c'est une beta prive pour l'instant
+[1067828514700660776] aliend21#0: Hello, bonjour, est-ce que c'est possible d'ajouter openvpn dans MSC ?
+https://openvpn.net/
+[1069614101468303410] minks_09#0: hello ca serait possible d'update la version de🔁 visual studio code ?
+[1069860955900612649] jm_command#0: Salut c'est pour faire quoi ?
+[1069936355725025330] aliend21#0: Il s'agit d'un protocole VPN qui permet de se connecter à un réseau virtuel privé. Plusieurs prestataires utilisent ce type de connexion VPN dont moi. Je pourrais ainsi effectuer le transfert de mes projets entre mon réseau privé et l'école en toute sécurité.
+[1069937231487311872] jm_command#0: <@251767785141698563> on leur met openvpn ?
+[1069937310516387940] jm_command#0: je sais ce que c'est je voulais juste savoir en quoi vous auriez besoin
+[1069937433296257034] jpeg42#0: Oui, apres je suis pas sur que ca va etre utilisanle sans droits admin, essaie. Tu peux essayer le client “tunnelblick” sinon
+[1069940786524856351] aliend21#0: ok, merci pour le tips, je vais essayer ça mercredi !
+[1069941719967211570] aliend21#0: j'ai pas compris ta question alors... tu imaginais faire quoi d'autre qu'une connexion vpn avec openvpn ? je sais pas quoi te répondre autre que faire une connexion vpn entre l'école et un réseau privé 🙂 t'inquiète, je n'ai pas l'intention de hacker le gouvernement américain.
+[1072137874801164288] madness807#0: Bonjour, est-il possible d'avoir logitech option pour nos mac  ?
+[1072142880140955719] shaolin_peanut#0: Bonjour, ➕ GitKraken (inclus dans git dev pack)?
+[1072838668089294878] madness807#0: Bonjour je me permet de relancer
+[1074649059446497401] _hbo_#0: Bonjour, pourriez-vous svp installer le pack office ?  Merci par avance
+[1077339337458458684] LeQuent#9394: Hello, y aurait possibilité d'installer Wrap sur le msc ? https://www.warp.dev
+[1077343121148477611] jpeg42#0: On s'en occupe
+[1077575676607090768] m.shiba#0: yo, si t'as des liens de téléchargements alors pourquoi pas mais de ce que je vois il faut acheter la license office pour pouvoir l'installer et avec mon compte eduvaud je n'arrive pas a l'installer
+[1077591698168893540] madness807#0: # MSC
+Cela telecharge le fichier d'install mais ensuite faut les droits admin pour l installation ou alors il y a un truc que j ai pas compris
+[1077592603849150586] m.shiba#0: essaye avec ton login et ton password
+[1077592749131432017] jpeg42#0: Bah non, ca demande administrator 😅 faut modifier ton install MSC et rajouter un post-install script
+[1077593221812736111] m.shiba#0: c'est a dire ?
+[1077593301357711461] jpeg42#0: Je te montre demain
+[1085880122185367692] cassiopee.#0: Hello! est-ce que vous pouvez rajouter Go au MSC? https://go.dev/doc/install Merci!
+[1085894693738532884] didji#0: Comme discuté avec Jaime, est-ce qu'il est possible d'update slack svp ?
+[1085895060220039199] jm_command#0: vous êtes drôlement impatient, veuillez attendre donc l’autorisation de notre directeur technique, j'ai nommé Jpeg.
+[1085895212750098493] jpeg42#0: Marche pas avec brew?
+[1085895993066791003] cassiopee.#0: J’ai pas essayé…
+[1085896359728656525] cassiopee.#0: Ça l’air de fonctionner. Merci!!!
+[1085897147960004608] jm_command#0: Tout devrais marcher, n’oubliez pas de reinstaller/MAJ via MSC
+[1085897369696092231] didji#0: merci beaucoup, t'es trop fort 💯
+[1085897829714759750] jpeg42#0: Merci <@320686182843285504> ⚡
+[1085898457715331112] cassiopee.#0: ps: jai plein de ```Warning: Your Xcode (12.3) is outdated.
+Please update to Xcode 12.4 (or delete it).
+Xcode can be updated from the App Store``` donc si vous faites des maj bientot, pensez aussi a celle la 😉
+[1085899337692889208] jpeg42#0: Elle est plus délicate car elle impacte plein d’outils 42 mais on va regarder
+[1085899364255404032] jpeg42#0: Tant que c’est des warnings ca va
+[1086654449591787681] 0xonyx#0: possible d'ajouter IntelliJ IDEA et PyCharm ?
+[1088427539497754664] guillaumepoi#0: Hello, possible d'ajouter le client RDP de microsoft ?
+[1092405564404928594] shaolin_peanut#0: 🔁  Bonjour, plz update Clion ?🙏<:SadCat:973184255238750228>
+[1092437255035044010] 0xonyx#0: Aussi webstorm 🙏
+[1095355853290348594] 0xonyx#0: plz update jetbrain Gateway 👍
+[1098608558288928808] shaolin_peanut#0: Bonjour, pourrait on avoir ➕ le browser Opera (j'ai découvert récemment et c'est trop bien) s'il vous plait?
+[1102528806851444837] 0xonyx#0: Bonjour, plz update Webstorm to 2023 ?🙏
+[1112667741736939590] shaolin_peanut#0: 🔁  Bonjour, s'il vous plait pouvez vous update Obsidian? 🙏<:SadCat:973184255238750228>
+[1113138110713315448] 0xlowell#0: Hello,
+
+L'application de Notion, une fois installée via le msc, ne peut se lancer, voici le message d'erreur et la capture d'ecran comme quoi l'app Notion est quand meme bien dans le folder application (et aussi, lancé depuis là)
+[1113138391597465611] jpeg42#0: <@714894630789054606> <@329243391026266114> ce sera fait pour lundi (on va tout maj pour la piscine)
+[1113138458555318383] jpeg42#0: <@422508753804591136> essaye de la dl sur leur site et de la mettre + lancer sur ton bureau pour voir?
+[1113138491837132821] 0xlowell#0: Ok je tente
+[1113138909392666705] jpeg42#0: Essaye plutôt ça enfaite : /Users/login/Applications/Notion.app
+[1113139005211545660] jpeg42#0: Soit par un cp de /Applications/Notion.app soit en la downloadant la dedans ^
+[1113139551750324294] jpeg42#0: Ouaip, elle veut obligatoirement etre dans ton dossier User pour se lancer.. (un peu coder avec le cul)
+[1113139606955773952] jpeg42#0: Tu peux tenter un lien symbolique
+[1113139728003375174] jpeg42#0: `ln -s /Applications/Notion.app ~/Applications/Notion.app`
+[1113139745967575130] 0xlowell#0: ok je vais tenter le ln
+[1113140000586997810] 0xlowell#0: ca fonctionne comme ca, je tente de le passer en lien symbolique
+[1113140374660206624] 0xlowell#0: Nope, bon bé, je vais l'utiliser sur le browser, pas grave (désolé pour le flood)
+[1113141079433302046] jpeg42#0: Je pense avoir un fix global att
+[1113141389283303464] jpeg42#0: <@422508753804591136> réessaye celle du / pour voir stp?
+[1113828558628982844] m.shiba#0: @here yo, tout à été update, opera a été installé, notion a disparu
+[1115264912499937280] 0xonyx#0: Bonjour, 
+possibe d'ajouter Clion sur  `42 Package manager`  ? 
+Merci
+[1115929606806057001] 0xonyx#0: Bonjour 
+possible d'avoir Xcode sur les mac ?
+[1115931541076447232] 0xonyx#0: et android studio ?
+[1116282391141552269] timrodeo314#0: il n'y est plus? j'avais utilisé l'éditeur Xcode au premier examen en piscine il me semble; j'ai pas vérifié qu'il y avait le reste (Instruments, simulateur iOS/iPadOS etc.) mais ça serait étrange
+Thread: [clavier / souris / port][1075771380638957629] m.shiba#0: pour tout ce qui est problème de clavier, de souris ou de port.
+
+Pour l'instant, nous ne pouvons régler les problèmes liée au clavier mais savoir lesquels sont H.S. nous sera utile quand même.
+merci de votre compréhension.
+[1081169603377504287] grablor#0: On en avait discuter!
+Voila un des clavier concerne: C1R8S4
+[1081201416238022747] nagisalesa#0: le clavier en c2r9s2 apparament les touches fonction on des quelque faux contact et n'effectue pas la bonne action !
+[1083747741433339965] naimepaslespseudos#0: touche espace en fin de vie au c1r10s2
+[1116303134545940521] Comrade Groux#7538: Hello, le clavier du c2r1s7 a l'air en bout de vie, plusieurs faux contact entre les touches, notamment la touche 2 qui effectue des page down en plus.
+Thread: Clavier c2r1s7[1118822684931915796] jleroux#6420: Hello,
+La touche 2 du clavier du poste c2r1s7 déclenche une crise d'épilepsie au clavier, càd qu'il ajoute plein d'input d'apparence aléatoire en boucle
+Thread: Crash c2r5s3[1118874156667261021] shinikaris#0: En une heure le mac c2r5s3 à crash deux fois. 
+Black screen->message d’erreur qui dit d’attendre->redémarrage.
+Thread: pas de log en ssd[1120433573405671557] nakawashi#0: Hello, je suis arrivée vers 12h30 et je pars maintenant 21h20 environ et je vois que maintenant sur l'intra que je suis unavailable... Le truc c'est que j'ai pas beaucoup de possibilité de changer de post en cette période. Est-ce qu'il y a moyen d'avoir ce temps rendu effectif pour l'activity monitor ou pas ?
+Thread: clavier c2r1s7 defectueux[1120685959726514258] jsollett#0: la touche 2 du clavier (a gauche) affiche en continu ~ dans certaines fenetres notamment le terminal

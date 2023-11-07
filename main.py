@@ -33,7 +33,8 @@ def print_menu(gpt_api):
         print("3. Activate audio mode (deactivated)")
     else:
         print("3. Deactivate audio mode (activated)")
-    print("4. Quit program \n")
+    print("4. Marvin")
+    print("5. Quit program \n")
     print(bcolors.ENDC)
     return ""
 
@@ -55,6 +56,8 @@ def main():
         elif user_choice == '3':
             gpt_api.audio_mode = not gpt_api.audio_mode
         elif user_choice == '4':
+            gpt_api.Marvin()
+        elif user_choice == '5':
             exit (0)
         elif user_choice == 'q':
             print("Goodbye!")
