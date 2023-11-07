@@ -9,6 +9,7 @@ from pydub.playback import play
 import io
 import subprocess
 import tempfile
+import pyaudio
 
 class GPT_API:
     def __init__(self):
@@ -31,7 +32,6 @@ class GPT_API:
         }
 
         models = openai.models.list()
-        print(models)
         latest_models_dict = {"GPT-4": None, "GPT-3.5": None, "DALL·E": None, "Whisper": None}
         latest_models_timestamps = {"GPT-4": 0, "GPT-3.5": 0, "DALL·E": 0, "Whisper": 0}
 
@@ -204,39 +204,56 @@ class GPT_API:
                 print(bc.RED + "----------\nInvalid choice." + bc.ENDC)
 
 
+    def stream_and_play(self, text):
+        # Set up the audio stream for playback
+        p = pyaudio.PyAudio()
+        stream = p.open(format=p.get_format_from_width(2),  # Assuming 16-bit audio
+                        channels=1,  # Assuming mono audio
+                        rate=22050,  # Assuming 22050Hz sample rate
+                        output=True)
 
-    def audio_content(self, text):
+        # Make the API request and start streaming the response
+        response = client.audio.speech.create(
+            model="tts-1",
+            voice="alloy",
+            input=text,
+        )
+
+        # Assuming the response.content is a byte iterable for streaming
         try:
-            response = openai.audio.speech.create(
-                model="tts-1",
-                voice="alloy",
-                input=text,
-            )
-            with tempfile.NamedTemporaryFile(suffix='.mp3', delete=False) as tmp_file:
-                tmp_file.write(response.content)
-                tmp_file_path = tmp_file.name
-            
-            subprocess.run(["afplay", tmp_file_path])
+            # Read chunks of data from the response and write to the output stream
+            for chunk in response.iter_content(chunk_size=1024):
+                stream.write(chunk)
+        finally:
+            # Stop and close the stream
+            stream.stop_stream()
+            stream.close()
+            p.terminate()
 
-            os.remove(tmp_file_path)
-
-        except Exception as e:
-            print("Error occurred while calling OpenAI API:", e)
 
 
     def prompt_conversation(self, conversation_history):
         try:
             response = openai.chat.completions.create(
                 model="gpt-4",
-                messages=conversation_history
+                messages=conversation_history,
+                stream=True
             )
-            message_content = response.choices[0].message.content
-            if self.audio_mode:
-                self.audio_content(message_content)
-            return message_content
+
+            for event in response:
+                content = event.choices[0].delta.content
+                if content:
+                    print(content, end='', flush=True)
+                    if (self.audio_mode):
+                        self.stream_and_play(content)
+                else:
+                    print(" ", end='', flush=True)
+
+            print('\n')
         except Exception as e:
-            print("Error occurred while calling OpenAI API:", e)
+            print("\nError occurred while calling OpenAI API:", e)
             return "Sorry, I encountered an error."
+
 
 
     def conversation(self):
@@ -254,12 +271,4 @@ class GPT_API:
                 "role": "user",
                 "content": user_input
             })
-
-            ai_response = self.prompt_conversation(conversation_history)
-
-            conversation_history.append({
-                "role": "assistant",
-                "content": ai_response
-            })
-            
-            print(f"GPT: {ai_response}\n")
+            self.prompt_conversation(conversation_history)
