@@ -1,5 +1,5 @@
 import os
-import openai
+# import openai
 import json
 from datetime import datetime
 from gptapi import GPT_API
@@ -25,11 +25,15 @@ def display_banner():
     print("\t\t\t------------------------\n" + bcolors.ENDC)
     print("\nWhat you want to do now ?\n")
 
-def print_menu():
+def print_menu(gpt_api):
     print(bcolors.BLUE)
     print("1. Selet a model and start generate !")
-    print("2. Not define yet")
-    print("3. Quit program \n")
+    print("2. Conversation mode")
+    if not gpt_api.audio_mode:
+        print("3. Activate audio mode (deactivated)")
+    else:
+        print("3. Deactivate audio mode (activated)")
+    print("4. Quit program \n")
     print(bcolors.ENDC)
     return ""
 
@@ -40,15 +44,17 @@ def main():
     gpt_api = GPT_API()
     display_banner()
     while True:
-        print_menu()
+        print_menu(gpt_api)
         user_choice = input("Enter a number : ").lower()
         if user_choice == '1':
             gpt_api.print_models()
             user_choice = input("Enter a model's number : ").lower()
             gpt_api.generate(user_choice)
         elif user_choice == '2':
-            print("Not defined")
+            gpt_api.conversation()
         elif user_choice == '3':
+            gpt_api.audio_mode = not gpt_api.audio_mode
+        elif user_choice == '4':
             exit (0)
         elif user_choice == 'q':
             print("Goodbye!")

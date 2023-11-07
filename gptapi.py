@@ -2,13 +2,19 @@ import os
 import openai
 import json
 from datetime import datetime
-from utils import bcolors
+from utils import bcolors as bc
 import requests
+from pydub import AudioSegment
+from pydub.playback import play
+import io
+import subprocess
+import tempfile
 
 class GPT_API:
     def __init__(self):
         openai.api_key = os.getenv("OPENAI_API_KEY")
         self.models = self.list_models()
+        self.audio_mode = False
 
     def print_models(self):
         print('\n')
@@ -24,13 +30,15 @@ class GPT_API:
             "Whisper": "Convert audio into text."
         }
 
-        models = openai.Model.list()
+        models = openai.models.list()
+        print(models)
         latest_models_dict = {"GPT-4": None, "GPT-3.5": None, "DALL·E": None, "Whisper": None}
         latest_models_timestamps = {"GPT-4": 0, "GPT-3.5": 0, "DALL·E": 0, "Whisper": 0}
 
-        for model in models['data']:
-            model_id = model['id']
-            created_timestamp = model['created']
+        # Iterate through the paginated response
+        for model in models.data:
+            model_id = model.id
+            created_timestamp = model.created
 
             if "gpt-4" in model_id and created_timestamp > latest_models_timestamps["GPT-4"]:
                 latest_models_dict["GPT-4"] = model_id
@@ -84,8 +92,8 @@ class GPT_API:
 
     def print_response_GTP4(self, response):
         print('\n')
-        print(f"Role : {bcolors.YELLOW}{response['role']}{bcolors.ENDC}")
-        print(f"Response : {bcolors.DARKCYAN}{response['content']} {bcolors.ENDC}")
+        print(f"Role : {bc.YELLOW}{response['role']}{bc.ENDC}")
+        print(f"Response : {bc.DARKCYAN}{response['content']} {bc.ENDC}")
         print('\n')
 
     def print_response_GTP3(self, response):
@@ -118,7 +126,7 @@ class GPT_API:
             elif len(user_choice) == 0:
                 self.prompting()
             else:
-                print(bcolors.RED + "----------\nInvalid choice." + bcolors.ENDC)
+                print(bc.RED + "----------\nInvalid choice." + bc.ENDC)
 
 
     def prompt_GPT3(self):
@@ -135,7 +143,7 @@ class GPT_API:
             elif len(user_choice) == 0:
                 self.prompting()
             else:
-                print(bcolors.RED + "----------\nInvalid choice." + bcolors.ENDC)
+                print(bc.RED + "----------\nInvalid choice." + bc.ENDC)
 
     def save_images(self, response):
         if not os.path.exists('generated_images'):
@@ -162,14 +170,14 @@ class GPT_API:
     def prompt_DALLE(self):
         size = 512
         while True:
-            input_size = input("Choose the format (" + bcolors.YELLOW + "256" + bcolors.ENDC + "|" + bcolors.YELLOW + "512" + bcolors.ENDC + "|" + bcolors.YELLOW + "1024" + bcolors.ENDC + "), enter for default (512)): ")
+            input_size = input("Choose the format (" + bc.YELLOW + "256" + bc.ENDC + "|" + bc.YELLOW + "512" + bc.ENDC + "|" + bc.YELLOW + "1024" + bc.ENDC + "), enter for default (512)): ")
             if len(input_size) == 0:
                 break
             if int(input_size) in [256, 512, 1024]:
                 size = input_size
                 break
             else:
-                print(bcolors.RED + "Wrong format" + bcolors.ENDC)
+                print(bc.RED + "Wrong format" + bc.ENDC)
         input_prompt = input("Enter the prompt: ")
         input_number = input("Enter the number of image to generate (1-10), defaut is (1): ")
         completion =openai.Image.create(
@@ -185,7 +193,7 @@ class GPT_API:
                 self.save_images(completion)
                 break
             else:
-                print(bcolors.RED + "Wrong answer." + bcolors.ENDC)
+                print(bc.RED + "Wrong answer." + bc.ENDC)
         while True:
             user_choice = input("Enter for a new prompt, (q) to go back: ")
             if user_choice == 'q':
@@ -193,4 +201,65 @@ class GPT_API:
             elif len(user_choice) == 0:
                 self.prompting()
             else:
-                print(bcolors.RED + "----------\nInvalid choice." + bcolors.ENDC)
+                print(bc.RED + "----------\nInvalid choice." + bc.ENDC)
+
+
+
+    def audio_content(self, text):
+        try:
+            response = openai.audio.speech.create(
+                model="tts-1",
+                voice="alloy",
+                input=text,
+            )
+            with tempfile.NamedTemporaryFile(suffix='.mp3', delete=False) as tmp_file:
+                tmp_file.write(response.content)
+                tmp_file_path = tmp_file.name
+            
+            subprocess.run(["afplay", tmp_file_path])
+
+            os.remove(tmp_file_path)
+
+        except Exception as e:
+            print("Error occurred while calling OpenAI API:", e)
+
+
+    def prompt_conversation(self, conversation_history):
+        try:
+            response = openai.chat.completions.create(
+                model="gpt-4",
+                messages=conversation_history
+            )
+            message_content = response.choices[0].message.content
+            if self.audio_mode:
+                self.audio_content(message_content)
+            return message_content
+        except Exception as e:
+            print("Error occurred while calling OpenAI API:", e)
+            return "Sorry, I encountered an error."
+
+
+    def conversation(self):
+        print("\nStarting conversation. Type 'quit' to end the conversation.\n")
+
+        conversation_history = []
+
+        while True:
+            user_input = input("You: ")
+            if user_input.lower() == 'quit':
+                print("\nEnding conversation.\n")
+                break
+
+            conversation_history.append({
+                "role": "user",
+                "content": user_input
+            })
+
+            ai_response = self.prompt_conversation(conversation_history)
+
+            conversation_history.append({
+                "role": "assistant",
+                "content": ai_response
+            })
+            
+            print(f"GPT: {ai_response}\n")
